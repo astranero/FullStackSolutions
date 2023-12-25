@@ -1,0 +1,233 @@
+Script started on 2023-12-23 13:38:29+02:00 [TERM="xterm-kitty" TTY="/dev/pts/3" COLUMNS="96" LINES="55"]
+[1m[7m%[27m[1m[0m                                                                                                ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h[?2004hddocker[?1l[?2004l
+]2;docker]1;docker
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.11.2)
+  compose*    Docker Compose (Docker Inc., v2.21.0)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/home/taheresa/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides
+                           DOCKER_HOST env var and default context set with "docker
+                           context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error",
+                           "fatal") (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default
+                           "/home/taheresa/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default
+                           "/home/taheresa/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/taheresa/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+[1m[7m%[27m[1m[0m                                                                                                ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h[?2004hddoceker     ker container [K  ls[?1l[?2004l
+]2;docker container ls]1;dockerCONTAINER ID   IMAGE                          COMMAND                  CREATED         STATUS         PORTS                                         NAMES
+e28498776cc3   mongo                          "docker-entrypoint.s…"   5 minutes ago   Up 5 minutes   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+948687b47aad   linuxserver/syncthing:1.23.5   "/init"                  3 months ago    Up 2 weeks                                                   syncthing
+[1m[7m%[27m[1m[0m                                                                                                ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h[?2004h[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m ddocker exewc  c [7mtodo-backend-mongo-1[27m[20D[27mt[27mo[27md[27mo[27m-[27mb[27ma[27mc[27mk[27me[27mn[27md[27m-[27mm[27mo[27mn[27mg[27mo[27m-[27m1[?1l[?2004l
+]2;docker exec todo-backend-mongo-1]1;docker"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Execute a command in a running container
+[1m[7m%[27m[1m[0m                                                                                                                                                                             ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h[?2004hdocker exec todo-backend-mongo-1[1C todo-backend-mongo-1[21D- todo-backend-mongo-1[21Di todo-backend-mongo-1[21Dt todo-backend-mongo-1[21D[1C todo-backend-mongo-1[21D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C bash[?1l[?2004l
+]2;docker exec -it todo-backend-mongo-1 bash]1;docker[?2004hroot@e28498776cc3:/# ls
+[?2004lbin  boot  data  dev  docker-entrypoint-initdb.d  etc  home  js-yaml.js  lib  lib32  lib64  libx32  media  mnt	opt  proc  root  run  sbin  srv  sys  tmp  usr	var
+[?2004hroot@e28498776cc3:/# mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6586c6f085fb64769cb04525
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.1[0m
+Using MongoDB:		7.0.4
+[1m[33mUsing Mongosh[0m:		2.1.1
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1G[0Jtest> [7Gshow dbs
+Uncaught [1m[31mMongoServerError[0m: Command listDatabases requires authentication
+[1G[0Jtest> [7G
+(To exit, press Ctrl+C again or Ctrl+D or type .exit)
+[1G[0Jtest> [7Gexit
+[?2004hroot@e28498776cc3:/# mongosh -u admin -p " strongestPasswordPfft
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	6586c7101f869e4d07622648
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.1[0m
+Using MongoDB:		7.0.4
+[1m[33mUsing Mongosh[0m:		2.1.1
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2023-12-23T11:33:44.567+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2023-12-23T11:33:45.331+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7G[1G[0Jtest> show dbs[15G[1G[0Jtest> [7G[1G[0Jtest> show dbs[15G
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         60.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   40.00 KiB
+[1G[0Jtest> [7Guse the [1G[0Jtest> use the[14G_database
+switched to db the_database
+[1G[0Jthe_database> [15Gtodos
+Uncaught [1m[31mReferenceError[0m: todos is not defined
+[1G[0Jthe_database> [15Gdbn.[1G[0Jthe_database> dbn[18G[1G[0Jthe_database> db[17G.todosg[1G[0Jthe_database> db.todos[23G.dind[1G[0Jthe_database> db.todos.din[27G[1G[0Jthe_database> db.todos.di[26G[1G[0Jthe_database> db.todos.d[25G[1G[0Jthe_database> db.todos.[24Gfind({})
+[
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda12'[39m),
+    text: [32m'create a user'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda13'[39m),
+    text: [32m'Code a mongo'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda14'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda15'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.collection.insertOI[1G[0Jthe_database> db.collection.insertO[36Gne( {i[1G[0Jthe_database> db.collection.insertOne( {[41Gtext[33mtext[39m: [32m"[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32ml[39m[32mt[39m[32m"[39m, d[36mdo[39mdone:tru[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:tr[101G[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:t[100G[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m:[99G tu[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: t[101Gru[33mtrue[39m})[1D[1G[0Jthe_database> db.collection.insertOne[44m([49m {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mtrue[39m})[105G[1D[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mtrue[39m})[104G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mtrue[39m})[103G[1C[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mtrue[39m})[104G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: tru})[103G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: tr})[102G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: t})[101G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: })[100G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: d})[101G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: da})[102G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: dal})[103G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: dals})[104G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: dal})[103G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: da})[102G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: d})[101G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: })[100G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: f})[101G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: fa})[102G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: fal})[103G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: fals})[104G[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[105G[2C[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[107G
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6586c7a61f869e4d07622649'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[107G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda12'[39m),
+    text: [32m'create a user'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda13'[39m),
+    text: [32m'Code a mongo'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda14'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda15'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.find({})[32G[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[107G[1D[1G[0Jthe_database> db.collection.insertOne[44m([49m {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[106G[1D[1G[0Jthe_database> db.collection.insertOne( [44m{[49m[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[105G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[104G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [44m[32m"[49mIncrease the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[91G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[90G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt[44m"[39m[49m, [33mdone[39m: [33mfalse[39m})[47G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[46G[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m[44m}[49m)[40G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[39G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m}[44m)[49m[38G[1D[1G[0Jthe_database> db.collection.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[37G[1D[1D[1D[1D[1D[1D[1D[1D[1D[1G[0Jthe_database> db.collectio.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[27G[1G[0Jthe_database> db.collecti.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[26G[1G[0Jthe_database> db.collect.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[25G[1G[0Jthe_database> db.collec.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[24G[1G[0Jthe_database> db.colle.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[23G[1G[0Jthe_database> db.coll.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[22G[1G[0Jthe_database> db.col.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[21G[1G[0Jthe_database> db.co.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[20G[1G[0Jthe_database> db.c.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[19G[1G[0Jthe_database> db..insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[18G[1G[0Jthe_database> db.t.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[19G[1G[0Jthe_database> db.to.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[20G[1G[0Jthe_database> db.toD.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[21G[1G[0Jthe_database> db.toDo.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[22G[1G[0Jthe_database> db.toDos.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[23G[1G[0Jthe_database> db.toDo.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[22G[1G[0Jthe_database> db.toD.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[21G[1G[0Jthe_database> db.to.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[20G[1G[0Jthe_database> db.tod.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[21G[1G[0Jthe_database> db.todo.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[22G[1G[0Jthe_database> db.todos.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[23G[79C
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'6586c7ce1f869e4d0762264a'[39m)
+}
+[1G[0Jthe_database> [15G[1G[0Jthe_database> db.todos.insertOne( {[33mtext[39m: [32m"Increase the number of tools in my toolbelt"[39m, [33mdone[39m: [33mfalse[39m})[102G[1G[0Jthe_database> db.todos.find({})[32G
+[
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda12'[39m),
+    text: [32m'create a user'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda13'[39m),
+    text: [32m'Code a mongo'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda14'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'6586c597ec15a645deadda15'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'6586c7ce1f869e4d0762264a'[39m),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004hroot@e28498776cc3:/# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                                                             ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main ± [49m[33m[39m [K[?1h[?2004heexit[?1l[?2004l
+]2;exit]1;exit
+Script done on 2023-12-23 13:45:14+02:00 [COMMAND_EXIT_CODE="0"]

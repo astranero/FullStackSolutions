@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    image: backend
+    build: .
+    ports:
+    - 3000:3000
+    environment:
+      REDIS_URL: 'redis://localhost:6378'
+      MONGO_URL: 'mongodb://admin:strongestPasswordPfft@localhost:3456/the_database'
+    container_name: backend

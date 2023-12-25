@@ -1,0 +1,210 @@
+{% extends 'base.html' %}
+{% block body %}
+<main class="px-3" style="justify-content: center; margin-left: 10%;">
+    <div class="card m-0 p-0 profile-box">
+        <div class="row" style="font-weight: bold; color: #222222;">
+            <div class="col-3 m-0 p-0 thumbnail">
+                <img src="{{url_for('static', filename='/images/'+get_profile_picture(username))}}" class=" mt-2 mb-2"
+                    style="width: 200px; z-index: 4; border-radius: 15px;">
+            </div>
+            <div class="col-3 mt-5 m-0 p-0" style="justify-content: start;">
+                <p class="title lead">{{username.capitalize()}}</p>
+                <br>
+                <br>
+                {% if current_user.username==username %}
+                <a href="{{url_for('views.profile_edit', username=current_user.username)}}"><button
+                        class="btn btn-lg btn-success mb-2">Edit</button></a>
+                <a href="{{url_for('views.messages', username=current_user.username)}}"><button
+                        class="btn btn-lg btn-success mb-2">Messages</button></a>
+                {% else %}
+                <a href="#" type="submit"><button class="btn btn-lg btn-primary mb-2" data-bs-toggle="modal"
+                        data-bs-target="#message-profile">Send a message</button></a>
+                {% endif %}
+            </div>
+            <div class="col-3 mt-5 m-0 p-0" style="justify-content: start; align-content:flex-start;">
+                <div class="row">
+                    <div class="col-6">
+                        <p class="lead"> Reputation:<br>{{profile_manager.count_profile_likes(username)}} likes</p>
+                        <p class="lead"> Items sold:<br>{{count_sold_products(username)}} </p>
+                    </div>
+                    <div class="col-6">
+                        <div class="row">
+                            {% if username != current_user.username %}
+                            {% with islike = profile_manager.fetch_profile_islike(current_user.username, username) %}
+                            {% with exists = profile_manager.has_liked_profile(current_user.username, username) %}
+                            {% if islike == True and exists == True %}
+                            <a href="{{ url_for('views.dislike', username=username) }}"><i class="fa fa-thumbs-down"
+                                    style="color:red;"> </i> </a>
+                            {% else %}
+                            <a href="{{ url_for('views.like', username=username) }}"><i class="fa fa-thumbs-up"
+                                    style="color:rgb(0, 247, 255);"></i></a>
+                            {% endif %}
+                            {% endwith %}
+                            {% endwith %}
+                            {% endif %}
+                        </div>
+                        <br>
+                        <div class="row">
+                            {% if current_user.username==username %}
+                            <a href="{{ url_for('views.delete_profile') }}" onclick="return confirm ('Are you sure?')"
+                                type="submit"><button class="btn btn-m btn-danger mb-2">Delete
+                                    profile</button></a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card m-0 p-0 profile-box" style="font-weight: bold; color: #000000;">
+        <div class="row">
+            <p class="lead title"> Currently selling</p>
+            {% with products = fetch_user_products(username) %}
+            {% if products != None %}
+            {% for product in products %}
+            <div class="col-3 mt-2">
+                <div class="card card-shadow">
+                    <div class="card-body p-2 m-2">
+                        <div class="hovereffect">
+                            {% if product.id != None %}
+                            {% with image_id = fetch_product_img(product.id) %}
+                            <img class="img-responsive shadow-1-strong img-fluid img-thumbnail card-shadow d-block mx-auto mb-2"
+                                src="{{url_for('static', filename='/images/'+image_id)}}"
+                                alt="product with title: {{product.title}}">
+                            {% endwith %}
+                            {% endif %}
+                            <div class="overlay">
+                                <h2>{{ product.title }}</h2>
+                                <a class="info" href="{{url_for('views.product', product_id=product.id)}}">Check
+                                    details</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card-title">
+                            <p class="fw-bold title">{{ product.title.capitalize() }}</a>
+                                {% if username != current_user.username %}
+                                {% with isSold = fetch_issold(product.id) %}
+
+                            <p class="price">Price: {{ product.price }} € </p>
+                            {% endwith %}
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+            <br>
+        </div>
+        <hr>
+        {% if current_user.username == username %}
+        <div class="row">
+            <p class="lead title"> Items bought </p>
+            {% with products = fetch_bought_products(current_user.username) %}
+            {% if products != None %}
+            {% for product in products %}
+            <div class="col-3 mt-2">
+                <div class="card card-shadow">
+                    <div class="card-body p-2 m-2">
+                        <div class="hovereffect">
+                            {% if product.id != None %}
+                            {% with image_id = fetch_product_img(product.id) %}
+                            <img class="img-responsive shadow-1-strong img-fluid img-thumbnail card-shadow d-block mx-auto mb-2"
+                                src="{{url_for('static', filename='/images/'+image_id)}}"
+                                alt="product with title: {{product.title}}">
+                            {% endwith %}
+                            {% endif %}
+                            <div class="overlay">
+                                <h2>{{ product.title }}</h2>
+                                <a class="info" href="{{url_for('views.product', product_id=product.id)}}">Check
+                                    details</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card-title">
+                            <p class="fw-bold title">{{ product.title.capitalize() }}</a>
+                        </div>
+                        <a href="{{url_for('views.return_product', product_id=product.id)}}"><button
+                                class="btn btn-sm btn-warning fw-bold mt-1 ">Return product</button></a>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+        </div>
+        <hr>
+        <div class="row">
+            <p class="lead title"> Items sold </p>
+            {% with products = fetch_sold_products(current_user.username) %}
+            {% if products != None %}
+            {% for product in products %}
+            <div class="col-3 m-2">
+                <div class="card card-shadow">
+                    <div class="card-body p-2 m-2">
+                        <div class="hovereffect">
+                            {% if product.id != None %}
+                            {% with image_id = fetch_product_img(product.id) %}
+                            <img class="img-responsive shadow-1-strong img-fluid img-thumbnail card-shadow d-block mx-auto mb-2"
+                                src="{{url_for('static', filename='/images/'+image_id)}}"
+                                alt="product with title: {{product.title}}">
+                            {% endwith %}
+                            {% endif %}
+                            <div class="overlay">
+                                <h2>{{ product.title }}</h2>
+                                <a class="info" href="{{url_for('views.product', product_id=product.id)}}">Check
+                                    details</a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="card-title">
+                            <p class="fw-bold title">{{ product.title.capitalize() }}</a>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+            {% endwith %}
+        </div>
+        {% endif %}
+    </div>
+    <div class="modal fade" tabindex="-1" id="message-profile" name="message-profile">
+        <div class="modal-dialog">
+            <div class="modal-content" role="">
+                <div class="modal-header" style="background-color:rgb(214, 213, 211);">
+                    <h5 class="modal-title">Message user {{username.capitalize()}}</h5>
+                </div>
+                <div class="modal-body">
+                    <form action="{{url_for('views.send_message', username=username)}}" method="POST">
+                        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+                        <br>
+                        {{message_form.sender(class="form-control",type="hidden",
+                        id="sender",value=current_user.username)}}
+                        {{message_form.receiver(class="form-control",type="hidden",
+                        id="receiver",value=username)}}
+                        <div class="form-floating">
+                            {{message_form.message(class="form-control border-2 shadow-m",type="text",
+                            id="message",placeholder="Your message here:")}}
+                            <label for="message">Your message here:</label>
+                        </div>
+                        <br>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn close btn-primary">Send message</button>
+                            <a href="{{url_request}}"><button type="button" class="btn close btn-danger"
+                                    data-bs-dismiss="modal">Cancel</button></a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}

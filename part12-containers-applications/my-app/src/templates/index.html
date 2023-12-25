@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <main class="px-3" style="height:800px">
+        {% if current_user.is_anonymous %}
+        <div class="jumbotron">
+            <h1 class="display-4">Welcome home.</h1>
+            <p class="lead">This is the place where dreams come true.</p>
+            <hr class="my-4">
+            <div class="jumbotron">
+                <p class="lead">
+                    <a href="{{url_for('views.marketplace')}}"
+                        class="btn btn-lg btn-secondary fw-bold border-white bg-black">The marketplace</a>
+                    <a href="{{url_for('views.about')}}"
+                        class="btn btn-lg btn-secondary fw-bold border-white bg-black">About us</a>
+                </p>
+            </div>
+            {% else %}
+            <div class="jumbotron">
+                <h1 class="display-4">Welcome home, {{name}}.</h1>
+                <p class="lead">This is the place where dreams come true.</p>
+                <hr class="my-4">
+                <p class="lead">
+                    <a href="{{url_for('views.marketplace')}}"
+                        class="btn btn-lg btn-secondary fw-bold border-white bg-black">The marketplace</a>
+                    <a href="{{url_for('views.about')}}"
+                        class="btn btn-lg btn-secondary fw-bold border-white bg-black">About us</a>
+                </p>
+            </div>
+            {% endif %}
+    </main>
+</div>
+{% endblock %}

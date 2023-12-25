@@ -1,0 +1,358 @@
+Script started on 2023-12-23 12:07:21+02:00 [TERM="xterm-kitty" TTY="/dev/pts/0" COLUMNS="106" LINES="56"]
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hddocker start -i ubuntu[?1l[?2004l
+]2;docker start -i ubuntu]1;dockerError response from daemon: No such container: ubuntu
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004haapa  docker start -i ubuntu[1C[1C[1C[1C[1C[1C[1C             coi ntainer ls -a[?1l[?2004l
+]2;docker container ls -a]1;dockerCONTAINER ID   IMAGE                          COMMAND        CREATED          STATUS                      PORTS                                       NAMES
+bb675c809cb5   ubuntu                         "bash"         4 minutes ago    Exited (0) 3 minutes ago                                                pensive_matsumoto
+9e9a01f8b3d1   hello-world                    "/hello"       11 minutes ago   Exited (0) 11 minutes ago                                               gracious_ellis
+617042ff0e6e   jupyterhub/jupyterhub          "jupyterhub"   3 months ago     Exited (255) 3 months ago   0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   jupyterhub
+948687b47aad   linuxserver/syncthing:1.23.5   "/init"        3 months ago     Up 2 weeks                                                              syncthing
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hddocker start ubnu    -it ubuntu bash [K[K[?1l[?2004l
+]2;docker start -it ubuntu bash]1;dockerunknown shorthand flag: 't' in -t
+See 'docker start --help'.
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hdocker start -it ubuntu bash[K[A[105C[1C[1C[1C[1C[1C[1C[1C[1C[P[14Csh [A[89C[P[15Ch [K[A[89C[P[16C[K[1B[K[A[89C[P[16C [17D[P[16C [17D[P[15C [17D[?1l[?2004l[1B]2;docker -it ubuntu bash]1;dockerunknown shorthand flag: 'i' in -it
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.11.2)
+  compose*    Docker Compose (Docker Inc., v2.21.0)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/home/taheresa/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides
+                           DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/taheresa/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/taheresa/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/taheresa/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hdocker -it ubuntu bash[15Dstart -it ubuntu bash[K[A[85Ccontainer ls -a[K[1B[K[A[102C[15Dstart -i ubuntu[22Dscript  script-answers/exercise12_3.txt[K[A[67Cdocker start -i ubuntu[K[1B[K[A[102C[22Dscript  script-answers/exercise12_3.txt[K[A[67Ctypescript  script-answers/exercise12_3.txt[A[63Cexit[K[1B[K[A[84Cscript ls    cd ..mv typescript ..[16Dcd ..           [11Dls   script exit  typescript  script-answers/exercise12_3.txt[K[A[63C[4P[22C/exer[4P[101C[K[89D[A[67Cdocker start -i ubuntu[K[1B[K[A[102C[15Dcontainer ls -a[15Dstart -it ubuntu bash[K[A[85C[6P[13Csh[K[1B[K[A[102C[22D                      [22Dddocker ls[?1l[?2004l[1B]2;docker ls]1;dockerdocker: 'ls' is not a docker command.
+See 'docker --help'
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hdocker ls -a[?1l[?2004l
+]2;docker ls -a]1;dockerunknown shorthand flag: 'a' in -a
+See 'docker --help'.
+
+Usage:  docker [OPTIONS] COMMAND
+
+A self-sufficient runtime for containers
+
+Common Commands:
+  run         Create and run a new container from an image
+  exec        Execute a command in a running container
+  ps          List containers
+  build       Build an image from a Dockerfile
+  pull        Download an image from a registry
+  push        Upload an image to a registry
+  images      List images
+  login       Log in to a registry
+  logout      Log out from a registry
+  search      Search Docker Hub for images
+  version     Show the Docker version information
+  info        Display system-wide information
+
+Management Commands:
+  builder     Manage builds
+  buildx*     Docker Buildx (Docker Inc., v0.11.2)
+  compose*    Docker Compose (Docker Inc., v2.21.0)
+  container   Manage containers
+  context     Manage contexts
+  image       Manage images
+  manifest    Manage Docker image manifests and manifest lists
+  network     Manage networks
+  plugin      Manage plugins
+  system      Manage Docker
+  trust       Manage trust on Docker images
+  volume      Manage volumes
+
+Swarm Commands:
+  swarm       Manage Swarm
+
+Commands:
+  attach      Attach local standard input, output, and error streams to a running container
+  commit      Create a new image from a container's changes
+  cp          Copy files/folders between a container and the local filesystem
+  create      Create a new container
+  diff        Inspect changes to files or directories on a container's filesystem
+  events      Get real time events from the server
+  export      Export a container's filesystem as a tar archive
+  history     Show the history of an image
+  import      Import the contents from a tarball to create a filesystem image
+  inspect     Return low-level information on Docker objects
+  kill        Kill one or more running containers
+  load        Load an image from a tar archive or STDIN
+  logs        Fetch the logs of a container
+  pause       Pause all processes within one or more containers
+  port        List port mappings or a specific mapping for the container
+  rename      Rename a container
+  restart     Restart one or more containers
+  rm          Remove one or more containers
+  rmi         Remove one or more images
+  save        Save one or more images to a tar archive (streamed to STDOUT by default)
+  start       Start one or more stopped containers
+  stats       Display a live stream of container(s) resource usage statistics
+  stop        Stop one or more running containers
+  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
+  top         Display the running processes of a container
+  unpause     Unpause all processes within one or more containers
+  update      Update configuration of one or more containers
+  wait        Block until one or more containers stop, then print their exit codes
+
+Global Options:
+      --config string      Location of client config files (default "/home/taheresa/.docker")
+  -c, --context string     Name of the context to use to connect to the daemon (overrides
+                           DOCKER_HOST env var and default context set with "docker context use")
+  -D, --debug              Enable debug mode
+  -H, --host list          Daemon socket to connect to
+  -l, --log-level string   Set the logging level ("debug", "info", "warn", "error", "fatal")
+                           (default "info")
+      --tls                Use TLS; implied by --tlsverify
+      --tlscacert string   Trust certs signed only by this CA (default "/home/taheresa/.docker/ca.pem")
+      --tlscert string     Path to TLS certificate file (default "/home/taheresa/.docker/cert.pem")
+      --tlskey string      Path to TLS key file (default "/home/taheresa/.docker/key.pem")
+      --tlsverify          Use TLS and verify the remote
+  -v, --version            Print version information and quit
+
+Run 'docker COMMAND --help' for more information on a command.
+
+For more help on how to use Docker, head to https://docs.docker.com/go/guides/
+
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hddocker container  ls -a[?1l[?2004l
+]2;docker container ls -a]1;dockerCONTAINER ID   IMAGE                          COMMAND        CREATED          STATUS                      PORTS                                       NAMES
+bb675c809cb5   ubuntu                         "bash"         5 minutes ago    Exited (0) 4 minutes ago                                                pensive_matsumoto
+9e9a01f8b3d1   hello-world                    "/hello"       13 minutes ago   Exited (0) 13 minutes ago                                               gracious_ellis
+617042ff0e6e   jupyterhub/jupyterhub          "jupyterhub"   3 months ago     Exited (255) 3 months ago   0.0.0.0:8000->8000/tcp, :::8000->8000/tcp   jupyterhub
+948687b47aad   linuxserver/syncthing:1.23.5   "/init"        3 months ago     Up 2 weeks                                                              syncthing
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hddioc  d docker kill [7mbb675c809cb5[27m[12D[27mb[27mb[27m6[27m7[27m5[27mc[27m8[27m0[27m9[27mc[27mb[27m5[?1l[?2004l
+]2;docker kill bb675c809cb5]1;dockerError response from daemon: Cannot kill container: bb675c809cb5: Container bb675c809cb5a6a4f18ea3bea2fd44e5c8bf1c874c199a9f099bc2578cbfd496 is not running
+[1m[7m%[27m[1m[0m                                                                                                          ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004h[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                             ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hddocker l kill [7mpensive_matsumoto[27m[17D[27mp[27me[27mn[27ms[27mi[27mv[27me[27m_[27mm[27ma[27mt[27ms[27mu[27mm[27mo[27mt[27mo[?1l[?2004l
+]2;docker kill pensive_matsumoto]1;dockerError response from daemon: Cannot kill container: pensive_matsumoto: Container bb675c809cb5a6a4f18ea3bea2fd44e5c8bf1c874c199a9f099bc2578cbfd496 is not running
+[1m[7m%[27m[1m[0m                                                                                                                                                             ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m [31m✘[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004hdocker kill pensive_matsumoto[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19Ds pensive_matsumoto[18Dt pensive_matsumoto[18Da pensive_matsumoto[18Dr pensive_matsumoto[18Dt pensive_matsumoto[18D[1C pensive_matsumoto[18D- pensive_matsumoto[18Di pensive_matsumoto[18D[?1l[?2004l
+]2;docker start -i pensive_matsumoto]1;docker[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# [K]0;root@bb675c809cb5: /root@bb675c809cb5:/# ap pt  -get up[12P(arg: 1) apt-get up(arg: 6) apt-get up]0;root@bb675c809cb5: /root@bb675c809cb5:/# apt-get updddddd     d ate
+[?2004l0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu jammy InRelease [270 kB]
+            Get:2 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+0% [1 InRelease 13.7 kB/270 kB 5%] [2 InRelease 13.7 kB/110 kB 12%]                                                                   0% [1 InRelease 114 kB/270 kB 42%]0% [1 InRelease 179 kB/270 kB 66%]                                  0% [Waiting for headers]                        Get:3 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [1046 kB]
+0% [Waiting for headers] [3 Packages 1190 B/1046 kB 0%]0% [Waiting for headers] [3 Packages 64.2 kB/1046 kB 6%]                                                        Get:4 http://archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+0% [4 InRelease 2492 B/119 kB 2%] [3 Packages 89.4 kB/1046 kB 9%]                                                                 0% [3 Packages 120 kB/1046 kB 11%]0% [Waiting for headers] [3 Packages 218 kB/1046 kB 21%]                                                        Get:5 http://archive.ubuntu.com/ubuntu jammy-backports InRelease [109 kB]
+0% [5 InRelease 2492 B/109 kB 2%] [3 Packages 269 kB/1046 kB 26%]                                                                 0% [3 Packages 364 kB/1046 kB 35%]16% [Waiting for headers] [3 Packages 613 kB/1046 kB 59%]                                                         Get:6 http://archive.ubuntu.com/ubuntu jammy/universe amd64 Packages [17.5 MB]
+16% [6 Packages 2557 B/17.5 MB 0%] [3 Packages 752 kB/1046 kB 72%]                                                                  17% [6 Packages 175 kB/17.5 MB 1%]17% [3 Packages store 0 B] [6 Packages 175 kB/17.5 MB 1%] [Waiting for headers]                                                                               18% [6 Packages 294 kB/17.5 MB 2%] [Waiting for headers]                                                        Get:7 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [1572 kB]
+19% [6 Packages 532 kB/17.5 MB 3%] [7 Packages 2589 B/1572 kB 0%]                                                                 26% [6 Packages 1454 kB/17.5 MB 8%]                                   Get:8 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1326 kB]
+26% [6 Packages 1454 kB/17.5 MB 8%] [8 Packages 2814 B/1326 kB 0%]26% [7 Packages store 0 B] [6 Packages 1454 kB/17.5 MB 8%] [8 Packages 2814 B/1326 kB 0%]                                                                                         30% [6 Packages 1956 kB/17.5 MB 11%] [8 Packages 739 kB/1326 kB 56%]                                                                    33% [6 Packages 2474 kB/17.5 MB 14%]                                    Get:9 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages [44.0 kB]
+33% [6 Packages 2474 kB/17.5 MB 14%] [9 Packages 0 B/44.0 kB 0%]33% [8 Packages store 0 B] [6 Packages 2474 kB/17.5 MB 14%] [9 Packages 713 B/44.0 kB 2%]                                                                                         33% [8 Packages store 0 B] [6 Packages 2513 kB/17.5 MB 14%]                                                           36% [6 Packages 3421 kB/17.5 MB 20%]36% [9 Packages store 0 B] [6 Packages 3421 kB/17.5 MB 20%]                                                           37% [6 Packages 3486 kB/17.5 MB 20%]63% [6 Packages 13.1 MB/17.5 MB 75%]                                    75% [Waiting for headers]                         Get:10 http://archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages [266 kB]
+76% [10 Packages 52.1 kB/266 kB 20%]76% [6 Packages store 0 B] [10 Packages 52.1 kB/266 kB 20%]                                                           76% [6 Packages store 0 B]                          Get:11 http://archive.ubuntu.com/ubuntu jammy/main amd64 Packages [1792 kB]
+76% [6 Packages store 0 B] [11 Packages 48.4 kB/1792 kB 3%]                                                           81% [6 Packages store 0 B] [Waiting for headers]                                                Get:12 http://archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages [164 kB]
+81% [6 Packages store 0 B] [12 Packages 25.4 kB/164 kB 15%]                                                           82% [6 Packages store 0 B]                          Get:13 http://archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [49.8 kB]
+82% [6 Packages store 0 B] [13 Packages 8276 B/49.8 kB 17%]                                                           82% [6 Packages store 0 B]                          Get:14 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1305 kB]
+82% [6 Packages store 0 B] [14 Packages 23.7 kB/1305 kB 2%]                                                           85% [6 Packages store 0 B] [Waiting for headers]                                                Get:15 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1599 kB]
+85% [6 Packages store 0 B] [15 Packages 13.0 kB/1599 kB 1%]                                                           90% [6 Packages store 0 B] [Waiting for headers]                                                Get:16 http://archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [1602 kB]
+90% [6 Packages store 0 B] [16 Packages 36.1 kB/1602 kB 2%]                                                           92% [16 Packages 718 kB/1602 kB 45%]92% [10 Packages store 0 B] [16 Packages 718 kB/1602 kB 45%]                                                            94% [16 Packages 942 kB/1602 kB 59%]94% [11 Packages store 0 B] [16 Packages 942 kB/1602 kB 59%]                                                            95% [11 Packages store 0 B]                           Get:17 http://archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages [50.4 kB]
+95% [11 Packages store 0 B] [17 Packages 0 B/50.4 kB 0%]                                                        95% [11 Packages store 0 B]                           Get:18 http://archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [28.1 kB]
+95% [11 Packages store 0 B] [18 Packages 0 B/28.1 kB 0%]                                                        96% [11 Packages store 0 B]                           96% [Working]96% [12 Packages store 0 B]                           97% [Working]97% [13 Packages store 0 B]                           97% [Working]97% [14 Packages store 0 B]                           98% [Working]98% [15 Packages store 0 B]                           98% [Working]98% [16 Packages store 0 B]                           99% [Working]99% [17 Packages store 0 B]                           99% [Working]99% [18 Packages store 0 B]                           100% [Working]              Fetched 28.9 MB in 3s (9933 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 70%Reading package lists... 70%Reading package lists... 77%Reading package lists... 77%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 88%Reading package lists... 88%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# apt-get install       -y int stall nano
+[?2004lReading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 70%Reading package lists... 70%Reading package lists... 77%Reading package lists... 77%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 88%Reading package lists... 88%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+Suggested packages:
+  hunspell
+The following NEW packages will be installed:
+  nano
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 280 kB of archives.
+After this operation, 881 kB of additional disk space will be used.
+0% [Working]            Get:1 http://archive.ubuntu.com/ubuntu jammy/main amd64 nano amd64 6.2-1 [280 kB]
+4% [1 nano 13.7 kB/280 kB 5%]79% [1 nano 276 kB/280 kB 98%]                              100% [Working]              Fetched 280 kB in 1s (356 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package nano.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4393 files and directories currently installed.)
+Preparing to unpack .../archives/nano_6.2-1_amd64.deb ...
+Unpacking nano (6.2-1) ...
+Setting up nano (6.2-1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# nano /usr/app             sudo nano (           nano /usr/src/app/index.js
+[?2004l[?2004h[?1049h[22;0;0t[1;56r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[54;72H(B[0;7m[ Reading... ](B[m[54;71H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 6.2 [55b/usr/src/app/index.js [64b [1;156H(B[m[55d(B[0;7m^G(B[m Help[55;18H(B[0;7m^O(B[m Write Out     (B[0;7m^W(B[m Where Is[52G(B[0;7m^K(B[m Cut[55;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[55;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket[56d(B[0;7m^X(B[m Exit[56;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[56;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[56;120H(B[0;7mM-6(B[m Copy[56;137H(B[0;7m^Q(B[m Where Was[2d[?12l[?25h[?25l[1;93H(B[0;7m*[156G(B[m[?12l[?25h[2dc[?25l[?12l[?25ho[?25l[?12l[?25hn[?25l[?12l[?25hs[?25l[?12l[?25ho[?25l[?12l[?25hl[?25l[?12l[?25he[?25l[?12l[?25h.[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hg[?25l[?12l[?25h([?25l[?12l[?25h"[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25hw[?25l[54d[K[?12l[?25h[2;20H[42m [49m(B[m[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h w[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[42m [49m(B[m[K[?25l[?12l[?25h W[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hd[?25l[?12l[?25hl[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[?12l[?25h[2;13H(B[0;1m[35m"Hello World"[39m(B[m[?25l[?12l[?25h)[?25l[54;72H(B[0;7m[ Writing... ](B[m[1;93H(B[0;7m [156G(B[m[54;71H(B[0;7m[ Wrote 1 line ](B[m[?12l[?25h[2;27H[?25l[54d[J[56d[?12l[?25h[56;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# [K[7mcurl -sL https://deb.nodesource.com/setup_16.x | bash[27m
+[7mapt install -y nodejs[27m[Acurl -sL https://deb.nodesource.com/setup_16.x | bash
+apt install -y nodejs
+[?2004lbash: curl: command not found
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 0%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 6%Reading package lists... 63%Reading package lists... 63%Reading package lists... 64%Reading package lists... 64%Reading package lists... 70%Reading package lists... 70%Reading package lists... 77%Reading package lists... 77%Reading package lists... 82%Reading package lists... 82%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 83%Reading package lists... 88%Reading package lists... 88%Reading package lists... 95%Reading package lists... 95%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  ca-certificates javascript-common libbrotli1 libc-ares2 libicu70 libjs-highlight.js libnghttp2-14 libnode72 libuv1 nodejs-doc openssl
+Suggested packages:
+  apache2 | lighttpd | httpd npm
+The following NEW packages will be installed:
+  ca-certificates javascript-common libbrotli1 libc-ares2 libicu70 libjs-highlight.js libnghttp2-14 libnode72 libuv1 nodejs nodejs-doc openssl
+0 upgraded, 12 newly installed, 0 to remove and 0 not upgraded.
+Need to get 26.1 MB of archives.
+After this operation, 93.0 MB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 openssl amd64 3.0.2-0ubuntu1.12 [1182 kB]
+[33m0% [1 openssl 13.7 kB/1182 kB 1%][0m[33m1% [1 openssl 271 kB/1182 kB 23%][0m[33m                                 5% [Working][0m            Get:2 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 ca-certificates all 20230311ubuntu0.22.04.1 [155 kB]
+[33m5% [2 ca-certificates 53.2 kB/155 kB 34%][0m[33m                                         7% [Waiting for headers][0m                        Get:3 http://archive.ubuntu.com/ubuntu jammy/main amd64 libicu70 amd64 70.1-2 [10.6 MB]
+[33m8% [3 libicu70 37.8 kB/10.6 MB 0%][0m[33m34% [3 libicu70 8752 kB/10.6 MB 83%][0m[33m                                    41% [Working][0m             Get:4 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnghttp2-14 amd64 1.43.0-1ubuntu0.1 [76.7 kB]
+[33m42% [4 libnghttp2-14 31.9 kB/76.7 kB 42%][0m[33m                                         43% [Working][0m             Get:5 http://archive.ubuntu.com/ubuntu jammy/main amd64 libuv1 amd64 1.43.0-1 [93.1 kB]
+[33m43% [5 libuv1 20.4 kB/93.1 kB 22%][0m[33m                                  45% [Waiting for headers][0m                         Get:6 http://archive.ubuntu.com/ubuntu jammy/main amd64 javascript-common all 11+nmu1 [5936 B]
+[33m45% [6 javascript-common 5936 B/5936 B 100%][0m[33m                                            47% [Waiting for headers][0m                         Get:7 http://archive.ubuntu.com/ubuntu jammy/main amd64 libbrotli1 amd64 1.0.9-2build6 [315 kB]
+[33m47% [7 libbrotli1 26.9 kB/315 kB 9%][0m[33m                                    50% [Waiting for headers][0m                         Get:8 http://archive.ubuntu.com/ubuntu jammy/universe amd64 libjs-highlight.js all 9.18.5+dfsg1-1 [367 kB]
+[33m50% [8 libjs-highlight.js 38.9 kB/367 kB 11%][0m[33m                                             52% [Waiting for headers][0m                         Get:9 http://archive.ubuntu.com/ubuntu jammy-updates/main amd64 libc-ares2 amd64 1.18.1-1ubuntu0.22.04.2 [45.0 kB]
+[33m52% [9 libc-ares2 13.7 kB/45.0 kB 30%][0m[33m                                      54% [Waiting for headers][0m                         Get:10 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 libnode72 amd64 12.22.9~dfsg-1ubuntu3.2 [10.8 MB]
+[33m54% [10 libnode72 19.6 kB/10.8 MB 0%][0m[33m79% [10 libnode72 8080 kB/10.8 MB 75%][0m[33m                                      89% [Working][0m             Get:11 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 nodejs-doc all 12.22.9~dfsg-1ubuntu3.2 [2410 kB]
+[33m89% [11 nodejs-doc 18.1 kB/2410 kB 1%][0m[33m                                      98% [Waiting for headers][0m                         Get:12 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 nodejs amd64 12.22.9~dfsg-1ubuntu3.2 [122 kB]
+[33m98% [12 nodejs 10.7 kB/122 kB 9%][0m[33m                                 100% [Working][0m              Fetched 26.1 MB in 3s (10.3 MB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+
+7[0;55r8[1ASelecting previously unselected package openssl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 4466 files and directories currently installed.)
+Preparing to unpack .../00-openssl_3.0.2-0ubuntu1.12_amd64.deb ...
+7[56;0f[42m[30mProgress: [  0%][49m[39m [.......................................................................................................................................] 87[56;0f[42m[30mProgress: [  2%][49m[39m [##.....................................................................................................................................] 8Unpacking openssl (3.0.2-0ubuntu1.12) ...
+7[56;0f[42m[30mProgress: [  4%][49m[39m [#####..................................................................................................................................] 8Selecting previously unselected package ca-certificates.
+Preparing to unpack .../01-ca-certificates_20230311ubuntu0.22.04.1_all.deb ...
+7[56;0f[42m[30mProgress: [  6%][49m[39m [########...............................................................................................................................] 8Unpacking ca-certificates (20230311ubuntu0.22.04.1) ...
+7[56;0f[42m[30mProgress: [  8%][49m[39m [###########............................................................................................................................] 8Selecting previously unselected package libicu70:amd64.
+Preparing to unpack .../02-libicu70_70.1-2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 10%][49m[39m [#############..........................................................................................................................] 8Unpacking libicu70:amd64 (70.1-2) ...
+7[56;0f[42m[30mProgress: [ 12%][49m[39m [################.......................................................................................................................] 8Selecting previously unselected package libnghttp2-14:amd64.
+Preparing to unpack .../03-libnghttp2-14_1.43.0-1ubuntu0.1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 14%][49m[39m [###################....................................................................................................................] 8Unpacking libnghttp2-14:amd64 (1.43.0-1ubuntu0.1) ...
+7[56;0f[42m[30mProgress: [ 16%][49m[39m [######################.................................................................................................................] 8Selecting previously unselected package libuv1:amd64.
+Preparing to unpack .../04-libuv1_1.43.0-1_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 18%][49m[39m [########################...............................................................................................................] 8Unpacking libuv1:amd64 (1.43.0-1) ...
+7[56;0f[42m[30mProgress: [ 20%][49m[39m [###########################............................................................................................................] 8Selecting previously unselected package javascript-common.
+Preparing to unpack .../05-javascript-common_11+nmu1_all.deb ...
+7[56;0f[42m[30mProgress: [ 22%][49m[39m [##############################.........................................................................................................] 8Unpacking javascript-common (11+nmu1) ...
+7[56;0f[42m[30mProgress: [ 24%][49m[39m [#################################......................................................................................................] 8Selecting previously unselected package libbrotli1:amd64.
+Preparing to unpack .../06-libbrotli1_1.0.9-2build6_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 27%][49m[39m [###################################....................................................................................................] 8Unpacking libbrotli1:amd64 (1.0.9-2build6) ...
+7[56;0f[42m[30mProgress: [ 29%][49m[39m [######################################.................................................................................................] 8Selecting previously unselected package libjs-highlight.js.
+Preparing to unpack .../07-libjs-highlight.js_9.18.5+dfsg1-1_all.deb ...
+7[56;0f[42m[30mProgress: [ 31%][49m[39m [#########################################..............................................................................................] 8Unpacking libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[56;0f[42m[30mProgress: [ 33%][49m[39m [############################################...........................................................................................] 8Selecting previously unselected package libc-ares2:amd64.
+Preparing to unpack .../08-libc-ares2_1.18.1-1ubuntu0.22.04.2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 35%][49m[39m [##############################################.........................................................................................] 8Unpacking libc-ares2:amd64 (1.18.1-1ubuntu0.22.04.2) ...
+7[56;0f[42m[30mProgress: [ 37%][49m[39m [#################################################......................................................................................] 8Selecting previously unselected package libnode72:amd64.
+Preparing to unpack .../09-libnode72_12.22.9~dfsg-1ubuntu3.2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 39%][49m[39m [####################################################...................................................................................] 8Unpacking libnode72:amd64 (12.22.9~dfsg-1ubuntu3.2) ...
+7[56;0f[42m[30mProgress: [ 41%][49m[39m [#######################################################................................................................................] 8Selecting previously unselected package nodejs-doc.
+Preparing to unpack .../10-nodejs-doc_12.22.9~dfsg-1ubuntu3.2_all.deb ...
+7[56;0f[42m[30mProgress: [ 43%][49m[39m [#########################################################..............................................................................] 8Unpacking nodejs-doc (12.22.9~dfsg-1ubuntu3.2) ...
+7[56;0f[42m[30mProgress: [ 45%][49m[39m [############################################################...........................................................................] 8Selecting previously unselected package nodejs.
+Preparing to unpack .../11-nodejs_12.22.9~dfsg-1ubuntu3.2_amd64.deb ...
+7[56;0f[42m[30mProgress: [ 47%][49m[39m [###############################################################........................................................................] 8Unpacking nodejs (12.22.9~dfsg-1ubuntu3.2) ...
+7[56;0f[42m[30mProgress: [ 49%][49m[39m [##################################################################.....................................................................] 8Setting up javascript-common (11+nmu1) ...
+7[56;0f[42m[30mProgress: [ 51%][49m[39m [####################################################################...................................................................] 87[56;0f[42m[30mProgress: [ 53%][49m[39m [#######################################################################................................................................] 8Setting up libbrotli1:amd64 (1.0.9-2build6) ...
+7[56;0f[42m[30mProgress: [ 55%][49m[39m [##########################################################################.............................................................] 87[56;0f[42m[30mProgress: [ 57%][49m[39m [#############################################################################..........................................................] 8Setting up libnghttp2-14:amd64 (1.43.0-1ubuntu0.1) ...
+7[56;0f[42m[30mProgress: [ 59%][49m[39m [###############################################################################........................................................] 87[56;0f[42m[30mProgress: [ 61%][49m[39m [##################################################################################.....................................................] 8Setting up libc-ares2:amd64 (1.18.1-1ubuntu0.22.04.2) ...
+7[56;0f[42m[30mProgress: [ 63%][49m[39m [#####################################################################################..................................................] 87[56;0f[42m[30mProgress: [ 65%][49m[39m [########################################################################################...............................................] 8Setting up libuv1:amd64 (1.43.0-1) ...
+7[56;0f[42m[30mProgress: [ 67%][49m[39m [##########################################################################################.............................................] 87[56;0f[42m[30mProgress: [ 69%][49m[39m [#############################################################################################..........................................] 8Setting up libjs-highlight.js (9.18.5+dfsg1-1) ...
+7[56;0f[42m[30mProgress: [ 71%][49m[39m [################################################################################################.......................................] 87[56;0f[42m[30mProgress: [ 73%][49m[39m [###################################################################################################....................................] 8Setting up openssl (3.0.2-0ubuntu1.12) ...
+7[56;0f[42m[30mProgress: [ 76%][49m[39m [#####################################################################################################..................................] 87[56;0f[42m[30mProgress: [ 78%][49m[39m [########################################################################################################...............................] 8Setting up libicu70:amd64 (70.1-2) ...
+7[56;0f[42m[30mProgress: [ 80%][49m[39m [###########################################################################################################............................] 87[56;0f[42m[30mProgress: [ 82%][49m[39m [##############################################################################################################.........................] 8Setting up libnode72:amd64 (12.22.9~dfsg-1ubuntu3.2) ...
+7[56;0f[42m[30mProgress: [ 84%][49m[39m [################################################################################################################.......................] 87[56;0f[42m[30mProgress: [ 86%][49m[39m [###################################################################################################################....................] 8Setting up ca-certificates (20230311ubuntu0.22.04.1) ...
+7[56;0f[42m[30mProgress: [ 88%][49m[39m [######################################################################################################################.................] 8debconf: unable to initialize frontend: Dialog
+debconf: (No usable dialog-like program is installed, so the dialog based frontend cannot be used. at /usr/share/perl5/Debconf/FrontEnd/Dialog.pm line 78.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.34.0 /usr/local/share/perl/5.34.0 /usr/lib/x86_64-linux-gnu/perl5/5.34 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl-base /usr/lib/x86_64-linux-gnu/perl/5.34 /usr/share/perl/5.34 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)
+debconf: falling back to frontend: Teletype
+Updating certificates in /etc/ssl/certs...
+137 added, 0 removed; done.
+7[56;0f[42m[30mProgress: [ 90%][49m[39m [#########################################################################################################################..............] 8Setting up nodejs-doc (12.22.9~dfsg-1ubuntu3.2) ...
+7[56;0f[42m[30mProgress: [ 90%][49m[39m [#########################################################################################################################..............] 8Setting up nodejs (12.22.9~dfsg-1ubuntu3.2) ...
+7[56;0f[42m[30mProgress: [ 92%][49m[39m [############################################################################################################################...........] 8update-alternatives: using /usr/bin/nodejs to provide /usr/bin/js (js) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/js.1.gz because associated file /usr/share/man/man1/nodejs.1.gz (of link group js) doesn't exist
+7[56;0f[42m[30mProgress: [ 94%][49m[39m [###############################################################################################################################........] 8Processing triggers for libc-bin (2.35-0ubuntu3.5) ...
+Processing triggers for ca-certificates (20230311ubuntu0.22.04.1) ...
+7[56;0f[42m[30mProgress: [ 96%][49m[39m [#################################################################################################################################......] 8Updating certificates in /etc/ssl/certs...
+0 added, 0 removed; done.
+Running hooks in /etc/ca-certificates/update.d...
+done.
+7[56;0f[42m[30mProgress: [ 98%][49m[39m [####################################################################################################################################...] 8
+7[0;56r8[1A[J[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# [K< [7mroot@b8548b9faec3:/# node /usr/src/app/index.js[27m
+[7mHello World[27m[A809cb5:/# root@b8548b9faec3:/# node /usr/src/app/index.js
+Hello World
+[?2004lbash: root@b8548b9faec3:/#: No such file or directory
+bash: Hello: command not found
+[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# [K[7mnode /usr/src/app/index.js[27m
+[7mHello World[27m[A809cb5:/# node /usr/src/app/index.js
+Hello World           [A]0;root@bb675c809cb5: /root@bb675c809cb5:/# node /usr/src/app/index.js
+[K[K[Aroot@bb675c809cb5:/# node /usr/src/app/index.js        index.js
+[?2004lHello World
+[?2004h]0;root@bb675c809cb5: /root@bb675c809cb5:/# [Kexit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                                             ]2;taheresa@esaROG:~/Project/part12-containers-applications]1;..-applications]7;file://esaROG/home/taheresa/Project/part12-containers-applications\[0m[27m[24m[J(base) [39m[0m[49m[40m[39m taheresa@esaROG [44m[30m[30m ~/Project/part12-containers-applications [43m[34m[30m  main [49m[33m[39m [K[?1h[?2004heexit[?1l[?2004l
+]2;exit]1;exit
+Script done on 2023-12-23 12:12:57+02:00 [COMMAND_EXIT_CODE="0"]

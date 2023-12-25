@@ -1,0 +1,64 @@
+version: '3.8'
+
+services:
+  frontend:
+    image: frontend
+    build:
+      context: ./todo-frontend
+      dockerfile: dev.Dockerfile
+    volumes:
+    - ./todo-frontend:/usr/src/app
+    - /usr/src/app/node_modules
+    environment:
+      REACT_APP_BACKEND_URL: http://localhost:8080/api
+    container_name: frontend
+
+  nginx:
+    image: nginx:1.20.1
+    ports:
+     - 8080:80
+    volumes:
+    - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    container_name: nginx
+    depends_on:
+    - frontend
+
+  backend:
+    image: backend
+    build:
+      context: ./todo-backend
+      dockerfile: dev.Dockerfile
+    environment:
+      REDIS_URL: redis://redis:6379
+      MONGO_URL: mongodb://admin:strongestPasswordPfft@mongo:27017/the_database
+    volumes:
+    - ./todo-backend:/usr/src/app
+    depends_on:
+    - mongo
+    - redis
+    container_name: backend
+
+  mongo:
+    image: mongo
+    ports:
+     - 3456:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: 'admin'
+      MONGO_INITDB_ROOT_PASSWORD: 'strongestPasswordPfft'
+      MONGO_INITDB_DATABASE: the_database
+    volumes:
+    - ./todo-backend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+    - ./todo-backend/mongo_data:/data/db
+    container_name: mongo
+
+  redis:
+    image: redis
+    ports:
+    - 6378:6379
+    command: ['redis-server','--appendonly', 'yes']
+    volumes:
+    - ./todo-backend/redis_data:/data
+    container_name: redis
+
+volumes:
+  mongo_data:
