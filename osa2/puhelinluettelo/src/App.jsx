@@ -1,70 +1,43 @@
-import { useState } from 'react'
-
-const Number = ({name, number}) => {
-  return (
-    <p> {name} {number} </p>
-  )
-}
-
-const Header = ({text}) => {
-  return (
-    <h2>  {text} </h2>
-  )
-}
-
-const Value = ({value, onChange, text}) => {
-  return (
-    <div>
-      {text}: <input value={value} onChange={onChange} /> 
-    </div>
-  )
-}
-
-const Persons = ({filteredPersons}) => {
-  return  filteredPersons.map(
-    (person) => <Number key={person.name} name={person.name} number={person.number}/>
-     )
-}
-
-const PersonForm = ({onSubmit, newName, newNumber, handleNameChange, handleNumberChange}) => {
-  return (
-    <form onSubmit={onSubmit}>
-      <Value value={newName} onChange={handleNameChange} text={"value"} />
-      <Value value={newNumber} onChange={handleNumberChange} text={"phone"} />
-      <div>
-        <button type="submit">add</button>
-      </div>
-    </form>
-  )
-}
+import { useState, useEffect } from 'react'
+import personService from './services/persons.jsx'
+import { Header, Value, Persons, PersonForm } from './components/persons';
 
 const App = () => {
-  
-  const [persons, setPersons] = useState([
-      { name: 'Arto Hellas', number: '040-123456' },
-      { name: 'Ada Lovelace', number: '39-44-5323523' },
-      { name: 'Dan Abramov', number: '12-43-234345' },
-      { name: 'Mary Poppendieck', number: '39-23-6423122' }
-    ])
-  
-
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
   const [filter, setNewFilter] = useState()
-  const [filteredPersons, setfilteredPersons] = useState([...persons])
+  const [persons, setPersons] = useState([])
+  const [filteredPersons, setFilteredPersons] = useState([])
+
+  useEffect(() => {
+    personService.getAll().then(response => {
+      const currentPersons = response.data
+      setPersons(currentPersons)
+      const newFilteredPersons = currentPersons.filter(p => p.name.includes(filter))
+      setFilteredPersons(response.data)}
+    )
+    .catch(e => alert("error occured:", e))
+    }, [])
 
   const addName = (event) => {
     event.preventDefault()
     const currentPersons = [...persons]
-    const nameExists = currentPersons.some( person => {return person.name == newName})
+    const nameExists = currentPersons.some( p => {return p.name === newName})
+    const newObj = {
+        name: newName,
+        number: newNumber
+      }
 
     if (nameExists) {
-      alert(`${newName} is already added to phonebook`)
+      const person = currentPersons.filter(p => p.name === newName)[0]
+      if (window.confirm(`${newName} is already added to phonebook. Do you want to update the number?`)){
+        person.number = newNumber
+        personService.update(person).catch(e => alert("error occured", e))
+        useEffect()
+      }
+
     } else {
-      currentPersons.push({name: newName, number: newNumber})
-      const filteredPersons = currentPersons.filter((person) => person.name.includes(filter))
-      setfilteredPersons(filteredPersons) 
-      setPersons(currentPersons)
+      personService.create(newObj).catch(e => alert("error occured:", e))
     }
   }
 
@@ -81,8 +54,18 @@ const App = () => {
     setNewFilter(filterValue)
 
     const currentPersons = [...persons]
-    const filteredPersons = currentPersons.filter((person) => person.name.includes(filter))
-    setfilteredPersons(filteredPersons) 
+    const filteredPersons = currentPersons.filter((person) => person.name.includes(filterValue))
+    setFilteredPersons(filteredPersons) 
+  }
+
+  const handlePersonDelete = (id) => {
+    personService.deletePerson(id).catch(e => alert("error occured:", e))
+
+    const newPersons = persons.filter(p => p.id != id)
+    setPersons(newPersons)
+
+    const newFilteredPersons = filteredPersons.filter(p => p.id != id)
+    setFilteredPersons(newFilteredPersons)
   }
 
   return (
@@ -92,8 +75,7 @@ const App = () => {
       <Header text={"Add a new"} />
       <PersonForm onSubmit={addName} newName={newName} newNumber={newNumber} handleNameChange={handleNameChange} handleNumberChange={handleNumberChange}/>
       <Header text={"Numbers"} />
-      <Persons filteredPersons={filteredPersons} />
-      ...
+      <Persons persons={filteredPersons} onDelete={handlePersonDelete} />
     </div>
   )
 }
