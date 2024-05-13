@@ -1,0 +1,2406 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "importPath": "flatted",
+        "description": "flatted",
+        "isExtraImport": true,
+        "detail": "flatted",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "validators",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "validators",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "Markup",
+        "importPath": "markupsafe",
+        "description": "markupsafe",
+        "isExtraImport": true,
+        "detail": "markupsafe",
+        "documentation": {}
+    },
+    {
+        "label": "Markup",
+        "importPath": "markupsafe",
+        "description": "markupsafe",
+        "isExtraImport": true,
+        "detail": "markupsafe",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "check_username",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "check_username",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "check_email",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "check_username",
+        "importPath": "src.models.user_model",
+        "description": "src.models.user_model",
+        "isExtraImport": true,
+        "detail": "src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "MessageManager",
+        "importPath": "src.models.messaging_models",
+        "description": "src.models.messaging_models",
+        "isExtraImport": true,
+        "detail": "src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "CommentManager",
+        "importPath": "src.models.messaging_models",
+        "description": "src.models.messaging_models",
+        "isExtraImport": true,
+        "detail": "src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "MessageManager",
+        "importPath": "src.models.messaging_models",
+        "description": "src.models.messaging_models",
+        "isExtraImport": true,
+        "detail": "src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "count_messages",
+        "importPath": "src.models.messaging_models",
+        "description": "src.models.messaging_models",
+        "isExtraImport": true,
+        "detail": "src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.__init__",
+        "description": "src.__init__",
+        "isExtraImport": true,
+        "detail": "src.__init__",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.__init__",
+        "description": "src.__init__",
+        "isExtraImport": true,
+        "detail": "src.__init__",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.__init__",
+        "description": "src.__init__",
+        "isExtraImport": true,
+        "detail": "src.__init__",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.__init__",
+        "description": "src.__init__",
+        "isExtraImport": true,
+        "detail": "src.__init__",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "src.__init__",
+        "description": "src.__init__",
+        "isExtraImport": true,
+        "detail": "src.__init__",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "uuid4",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "src.views",
+        "description": "src.views",
+        "isExtraImport": true,
+        "detail": "src.views",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "src.views",
+        "description": "src.views",
+        "isExtraImport": true,
+        "detail": "src.views",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "remove",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "click",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "click",
+        "description": "click",
+        "detail": "click",
+        "documentation": {}
+    },
+    {
+        "label": "secure_filename",
+        "importPath": "werkzeug.utils",
+        "description": "werkzeug.utils",
+        "isExtraImport": true,
+        "detail": "werkzeug.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ProxyFix",
+        "importPath": "werkzeug.middleware.proxy_fix",
+        "description": "werkzeug.middleware.proxy_fix",
+        "isExtraImport": true,
+        "detail": "werkzeug.middleware.proxy_fix",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CSRFProtect",
+        "importPath": "flask_wtf.csrf",
+        "description": "flask_wtf.csrf",
+        "isExtraImport": true,
+        "detail": "flask_wtf.csrf",
+        "documentation": {}
+    },
+    {
+        "label": "MessageForm",
+        "importPath": "src.forms.messaging_form",
+        "description": "src.forms.messaging_form",
+        "isExtraImport": true,
+        "detail": "src.forms.messaging_form",
+        "documentation": {}
+    },
+    {
+        "label": "CommentReportForm",
+        "importPath": "src.forms.messaging_form",
+        "description": "src.forms.messaging_form",
+        "isExtraImport": true,
+        "detail": "src.forms.messaging_form",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "src.forms.login_form",
+        "description": "src.forms.login_form",
+        "isExtraImport": true,
+        "detail": "src.forms.login_form",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "importPath": "src.forms.registration_form",
+        "description": "src.forms.registration_form",
+        "isExtraImport": true,
+        "detail": "src.forms.registration_form",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileForm",
+        "importPath": "src.forms.registration_form",
+        "description": "src.forms.registration_form",
+        "isExtraImport": true,
+        "detail": "src.forms.registration_form",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "importPath": "src.forms.password_change_form",
+        "description": "src.forms.password_change_form",
+        "isExtraImport": true,
+        "detail": "src.forms.password_change_form",
+        "documentation": {}
+    },
+    {
+        "label": "psycopg2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psycopg2",
+        "description": "psycopg2",
+        "detail": "psycopg2",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "osa0.part1.node_modules.flatted.python.flatted",
+        "description": "osa0.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "osa0.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "osa0.part1.node_modules.flatted.python.flatted",
+        "description": "osa0.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "osa0.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "osa0.part1.node_modules.flatted.python.flatted",
+        "description": "osa0.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "osa0.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa0.part1.node_modules.flatted.python.flatted",
+        "description": "osa0.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "osa0.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "osa0.part1.node_modules.flatted.python.test",
+        "description": "osa0.part1.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa0.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "description": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "description": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "description": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "description": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "osa1.anekdootit.node_modules.flatted.python.test",
+        "description": "osa1.anekdootit.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.anekdootit.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "osa1.part1.node_modules.flatted.python.flatted",
+        "description": "osa1.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "osa1.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "osa1.part1.node_modules.flatted.python.flatted",
+        "description": "osa1.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "osa1.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "osa1.part1.node_modules.flatted.python.flatted",
+        "description": "osa1.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "osa1.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa1.part1.node_modules.flatted.python.flatted",
+        "description": "osa1.part1.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "osa1.part1.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "osa1.part1.node_modules.flatted.python.test",
+        "description": "osa1.part1.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.part1.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "description": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "description": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "description": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "description": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "osa1.unicafee.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "osa1.unicafee.node_modules.flatted.python.test",
+        "description": "osa1.unicafee.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa1.unicafee.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "description": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa2.kurssitiedot.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "def stringify(value):\n    return _stringify(value, separators=(',', ':'))\nassert stringify([None, None]) == '[[null,null]]'\na = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "a = []\no = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o = {}\nassert stringify(a) == '[[]]'\nassert stringify(o) == '[{}]'\na.append(a)\no['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['o']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['o'] = o\nassert stringify(a) == '[[\"0\"]]'\nassert stringify(o) == '[{\"o\":\"0\"}]'\nb = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "b = parse(stringify(a))\nassert isinstance(b, list) and b[0] == b\na.append(1)\na.append('two')\na.append(True)\no['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['one']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['one'] = 1\no['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['two']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['two'] = 'two'\no['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['three']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['three'] = True\nassert stringify(a) == '[[\"0\",1,\"1\",true],\"two\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true},\"two\"]'\na.append(o)\no['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['a']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['a'] = a\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\"}]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\"},\"two\",[\"2\",1,\"1\",true,\"0\"]]'\na.append({'test': 'OK'})\na.append([1, 2, 3])\no['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['test']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['test'] = {'test': 'OK'}\no['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o['array']",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o['array'] = [1, 2, 3]\nassert stringify(a) == '[[\"0\",1,\"1\",true,\"2\",\"3\",\"4\"],\"two\",{\"o\":\"2\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"0\",\"test\":\"3\",\"array\":\"4\"},{\"test\":\"5\"},[1,2,3],\"OK\"]'\nassert stringify(o) == '[{\"o\":\"0\",\"one\":1,\"two\":\"1\",\"three\":true,\"a\":\"2\",\"test\":\"3\",\"array\":\"4\"},\"two\",[\"2\",1,\"1\",true,\"0\",\"3\",\"4\"],{\"test\":\"5\"},[1,2,3],\"OK\"]'\na2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "a2 = parse(stringify(a));\no2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "o2 = parse(stringify(o));\nassert a2[0] == a2\nassert o2['o'] == o2\nassert a2[1] == 1 and a2[2] == 'two' and a2[3] == True and isinstance(a2[4], dict)\nassert a2[4] == a2[4]['o'] and a2 == a2[4]['o']['a']\nstr = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "str",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "str = parse('[{\"prop\":\"1\",\"a\":\"2\",\"b\":\"3\"},{\"value\":123},[\"4\",\"5\"],{\"e\":\"6\",\"t\":\"7\",\"p\":4},{},{\"b\":\"8\"},\"f\",{\"a\":\"9\"},[\"10\"],\"sup\",{\"a\":1,\"d\":2,\"c\":\"7\",\"z\":\"11\",\"h\":1},{\"g\":2,\"a\":\"7\",\"b\":\"12\",\"f\":6},{\"r\":4,\"u\":\"7\",\"c\":5}]')\nassert str['b']['t']['a'] == 'sup' and str['a'][1]['b'][0]['c'] == str['b']['t']\noo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "oo",
+        "kind": 5,
+        "importPath": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "description": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "peekOfCode": "oo = parse('[{\"a\":\"1\",\"b\":\"0\",\"c\":\"2\"},{\"aa\":\"3\"},{\"ca\":\"4\",\"cb\":\"5\",\"cc\":\"6\",\"cd\":\"7\",\"ce\":\"8\",\"cf\":\"9\"},{\"aaa\":\"10\"},{\"caa\":\"4\"},{\"cba\":\"5\"},{\"cca\":\"2\"},{\"cda\":\"4\"},\"value2\",\"value3\",\"value1\"]');\nassert oo['a']['aa']['aaa'] == 'value1' and oo == oo['b'] and oo['c']['ca']['caa'] == oo['c']['ca']\nprint('OK')",
+        "detail": "osa2.puhelinluettelo.node_modules.flatted.python.test",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.forms.login_form",
+        "description": "part12-containers-applications.my-app.src.forms.login_form",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    username = StringField(\"Username\", [validators.Length(\n        min=4, max=99), validators.DataRequired()])\n    password = PasswordField(\"Password\", [validators.DataRequired()])\n    def validate_username(self, username):\n        username_exists = check_username(username.data)\n        if not username_exists:\n            raise ValidationError(\n                Markup(\"<p> User is not registered. <a href=register> Register here</a></p>\"))\n        self.password_validation(self.password)",
+        "detail": "part12-containers-applications.my-app.src.forms.login_form",
+        "documentation": {}
+    },
+    {
+        "label": "MessageForm",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.forms.messaging_form",
+        "description": "part12-containers-applications.my-app.src.forms.messaging_form",
+        "peekOfCode": "class MessageForm(FlaskForm):\n    sender = StringField(\"sender\", [validators.Length(\n        min=4, max=40),\n        validators.Email(message=\"Username format is incorrect.\"),\n        validators.DataRequired()])\n    receiver = StringField(\"receiver\", [\n        validators.Length(min=4, max=40),\n        validators.Email(message=\"Username format is incorrect.\"),\n        validators.DataRequired()])\n    message = TextAreaField(\"message\",",
+        "detail": "part12-containers-applications.my-app.src.forms.messaging_form",
+        "documentation": {}
+    },
+    {
+        "label": "CommentReportForm",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.forms.messaging_form",
+        "description": "part12-containers-applications.my-app.src.forms.messaging_form",
+        "peekOfCode": "class CommentReportForm(FlaskForm):\n    sender = StringField(\"sender\", [validators.Length(\n        min=4, max=40), validators.DataRequired()])\n    reported = StringField(\"reported\", [validators.Length(\n        min=4, max=40), validators.DataRequired()])\n    product_id = StringField(\"product_id\", [validators.Length(\n        min=4, max=40), validators.DataRequired()])\n    comment_id = StringField(\"comment_id\", [validators.Length(\n        min=4, max=40), validators.DataRequired()])\n    comment = StringField(\"comment\", [validators.Length(",
+        "detail": "part12-containers-applications.my-app.src.forms.messaging_form",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordChangeForm",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.forms.password_change_form",
+        "description": "part12-containers-applications.my-app.src.forms.password_change_form",
+        "peekOfCode": "class PasswordChangeForm(FlaskForm):\n    current_password = PasswordField(\n        \"current_password\", [validators.DataRequired()])\n    new_password = PasswordField(\"New Password\",\n                                 [validators.DataRequired(),\n                                  validators.Length(min=8),\n                                  validators.EqualTo(\"confirm_new_password\",\n                                                     message=\"Passwords don't match.\"\n                                                     )\n                                  ]",
+        "detail": "part12-containers-applications.my-app.src.forms.password_change_form",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.forms.registration_form",
+        "description": "part12-containers-applications.my-app.src.forms.registration_form",
+        "peekOfCode": "class RegistrationForm(FlaskForm):\n    username = StringField(\n        \"Username\", [validators.DataRequired(), validators.Length(min=4, max=99)])\n    first_name = StringField(\"First Name\", [validators.Length(min=2, max=40)])\n    last_name = StringField(\"Last Name\", [validators.Length(min=2, max=40)])\n    email = EmailField(\"Email Address\",\n                       [validators.Length(min=10, max=40),\n                        validators.Email(\n                            message=\"This is not a valid email address.\"),\n                           validators.DataRequired()])",
+        "detail": "part12-containers-applications.my-app.src.forms.registration_form",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileForm",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.forms.registration_form",
+        "description": "part12-containers-applications.my-app.src.forms.registration_form",
+        "peekOfCode": "class ProfileForm(FlaskForm):\n    first_name = StringField(\"First Name\", [validators.Length(min=2, max=40)])\n    last_name = StringField(\"Last Name\", [validators.Length(min=2, max=40)])\n    email = EmailField(\"Email Address\",\n                       [validators.Length(min=10, max=40),\n                        validators.Email(\n                            message=\"This is not a valid email address.\"),\n                           validators.DataRequired()])\n    phone_number = TelField(\"Phone Number\")\n    street_address = StringField(\"Street Address\")",
+        "detail": "part12-containers-applications.my-app.src.forms.registration_form",
+        "documentation": {}
+    },
+    {
+        "label": "MessageManager",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.messaging_models",
+        "description": "part12-containers-applications.my-app.src.models.messaging_models",
+        "peekOfCode": "class MessageManager():\n    def __init__(self, sender=None, receiver=\"admin\", message_id=None, message=None, tag=\"normal\"):\n        self.sender = sender\n        self.receiver = receiver\n        self.message = message\n        self.message_id = message_id\n        self.tag = tag\n    def insert_message(self):\n        sql = \"\"\"INSERT INTO messages (sender, receiver, message, tag)\n        VALUES (:sender, :receiver, :message, :tag);\"\"\"",
+        "detail": "part12-containers-applications.my-app.src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "CommentManager",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.messaging_models",
+        "description": "part12-containers-applications.my-app.src.models.messaging_models",
+        "peekOfCode": "class CommentManager():\n    def __init__(self, comment=None, product_id=None, comment_id=None, username=None):\n        self.comment = comment\n        self.product_id = product_id\n        self.comment_id = comment_id\n        self.commentor_username = username\n    def insert_comments(self):\n        sql = \"\"\"INSERT INTO comments (user_comment, product_id, commentor_username)\n        VALUES (:user_comment, :product_id, :commentor_username); \"\"\"\n        message_db.session.execute(sql, {\"user_comment\": self.comment,",
+        "detail": "part12-containers-applications.my-app.src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "count_messages",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.messaging_models",
+        "description": "part12-containers-applications.my-app.src.models.messaging_models",
+        "peekOfCode": "def count_messages(sender, receiver):\n    sql = \"\"\"SELECT count(id) FROM messages\n    WHERE (sender=:sender and receiver=:receiver)\n    OR (receiver=:sender and sender=:receiver);\"\"\"\n    message_count = message_db.session.execute(\n        sql, {\"sender\": sender, \"receiver\": receiver}).fetchone()\n    return message_count[0]",
+        "detail": "part12-containers-applications.my-app.src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "message_db",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.models.messaging_models",
+        "description": "part12-containers-applications.my-app.src.models.messaging_models",
+        "peekOfCode": "message_db = SQLAlchemy(app)\nclass MessageManager():\n    def __init__(self, sender=None, receiver=\"admin\", message_id=None, message=None, tag=\"normal\"):\n        self.sender = sender\n        self.receiver = receiver\n        self.message = message\n        self.message_id = message_id\n        self.tag = tag\n    def insert_message(self):\n        sql = \"\"\"INSERT INTO messages (sender, receiver, message, tag)",
+        "detail": "part12-containers-applications.my-app.src.models.messaging_models",
+        "documentation": {}
+    },
+    {
+        "label": "FilterManager",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "class FilterManager:\n    def __init__(\n        self,\n        condition=\"Any (default)\",\n        category=\"Any (default)\",\n        sort=\"A-Z (default)\",\n        search=\"\"\n    ):\n        self.condition = condition\n        self.category = category",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "ProductManager",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "class ProductManager:\n    def __init__(self, username=None, product_id=None):\n        self.product_id = product_id\n        self.username = username\n        self.title = None\n        self.details = None\n        self.price = None\n        self.category = None\n        self.condition = None\n    def set_product_info(self, product_info=None):",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_issold",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_issold(product_id):\n    sql = \"\"\"SELECT isSold\n    FROM products\n    WHERE id=:product_id;\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"product_id\": product_id}).fetchone()[0]\ndef update_issold(sold_to, is_sold: bool, product_id):\n    sql = \"\"\"UPDATE products\n    SET isSold=:isSold, sold_to=:sold_to\n    WHERE id=:product_id;\"\"\"",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "update_issold",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def update_issold(sold_to, is_sold: bool, product_id):\n    sql = \"\"\"UPDATE products\n    SET isSold=:isSold, sold_to=:sold_to\n    WHERE id=:product_id;\"\"\"\n    marketplace_db.session.execute(sql,\n                                   {\"product_id\": product_id,\n                                    \"isSold\": is_sold,\n                                    \"sold_to\": sold_to})\n    marketplace_db.session.commit()\ndef fetch_product_imgs(product_id):",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_product_imgs",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_product_imgs(product_id):\n    sql = \"SELECT image_id FROM product_images WHERE product_id=:product_id;\"\n    return marketplace_db.session.execute(\n        sql, {\"product_id\": product_id}).fetchall()\ndef fetch_product_img(product_id):\n    sql = \"\"\"\n    SELECT image_id\n    FROM product_images\n    WHERE product_id=:product_id \n    ORDER BY RANDOM() LIMIT 1;",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_product_img",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_product_img(product_id):\n    sql = \"\"\"\n    SELECT image_id\n    FROM product_images\n    WHERE product_id=:product_id \n    ORDER BY RANDOM() LIMIT 1;\n    \"\"\"\n    data = marketplace_db.session.execute(sql,\n                                          {\"product_id\": product_id}).fetchone()\n    if data is not None and data.image_id is not None:",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "check_product_exists",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def check_product_exists(product_id):\n    sql = \"\"\"SELECT exists (SELECT id FROM products WHERE id=:product_id);\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"product_id\": product_id}).fetchone()[0]\ndef fetch_product(product_id):\n    sql = \"\"\"\n    SELECT id, title, details, condition, category, price, username\n    FROM products\n    WHERE id =:product_id\"\"\"\n    return marketplace_db.session.execute(sql,",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_product",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_product(product_id):\n    sql = \"\"\"\n    SELECT id, title, details, condition, category, price, username\n    FROM products\n    WHERE id =:product_id\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"product_id\": product_id}).fetchone()\ndef fetch_bought_products(sold_to):\n    sql = \"\"\"SELECT id, title, price, username FROM products WHERE sold_to=:sold_to\"\"\"\n    return marketplace_db.session.execute(sql, {\"sold_to\": sold_to}).fetchall()",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_bought_products",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_bought_products(sold_to):\n    sql = \"\"\"SELECT id, title, price, username FROM products WHERE sold_to=:sold_to\"\"\"\n    return marketplace_db.session.execute(sql, {\"sold_to\": sold_to}).fetchall()\ndef fetch_user_products(username):\n    sql = \"\"\"SELECT id, title, price, username\n    FROM products\n    WHERE isSold=False AND username=:username\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"username\": username}).fetchall()\ndef fetch_sold_products(username):",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_user_products",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_user_products(username):\n    sql = \"\"\"SELECT id, title, price, username\n    FROM products\n    WHERE isSold=False AND username=:username\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"username\": username}).fetchall()\ndef fetch_sold_products(username):\n    sql = \"\"\"SELECT id, title, price, username, sold_to\n    FROM products\n    WHERE isSold=True AND username=:username\"\"\"",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_sold_products",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def fetch_sold_products(username):\n    sql = \"\"\"SELECT id, title, price, username, sold_to\n    FROM products\n    WHERE isSold=True AND username=:username\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"username\": username}).fetchall()\ndef count_sold_products(username):\n    sql = \"\"\"SELECT count(*) FROM products\n    WHERE username=:username and isSold=True;\"\"\"\n    return marketplace_db.session.execute(sql,",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "count_sold_products",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def count_sold_products(username):\n    sql = \"\"\"SELECT count(*) FROM products\n    WHERE username=:username and isSold=True;\"\"\"\n    return marketplace_db.session.execute(sql,\n                                          {\"username\": username}).fetchone()[0]\ndef delete_product(product_id):\n    sql = \"\"\"DELETE FROM products\n    WHERE id=:product_id;\"\"\"\n    marketplace_db.session.execute(sql,\n                                   {\"product_id\": product_id})",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def delete_product(product_id):\n    sql = \"\"\"DELETE FROM products\n    WHERE id=:product_id;\"\"\"\n    marketplace_db.session.execute(sql,\n                                   {\"product_id\": product_id})\n    marketplace_db.session.commit()\ndef delete_product_images(product_id):\n    sql = \"\"\"DELETE FROM product_images WHERE product_id=:product_id;\"\"\"\n    marketplace_db.session.execute(sql, {\"product_id\": product_id})\n    marketplace_db.session.commit()",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "delete_product_images",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "def delete_product_images(product_id):\n    sql = \"\"\"DELETE FROM product_images WHERE product_id=:product_id;\"\"\"\n    marketplace_db.session.execute(sql, {\"product_id\": product_id})\n    marketplace_db.session.commit()",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "marketplace_db",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.models.product_models",
+        "description": "part12-containers-applications.my-app.src.models.product_models",
+        "peekOfCode": "marketplace_db = SQLAlchemy(app)\nclass FilterManager:\n    def __init__(\n        self,\n        condition=\"Any (default)\",\n        category=\"Any (default)\",\n        sort=\"A-Z (default)\",\n        search=\"\"\n    ):\n        self.condition = condition",
+        "detail": "part12-containers-applications.my-app.src.models.product_models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.user_model",
+        "description": "part12-containers-applications.my-app.src.models.user_model",
+        "peekOfCode": "class User(UserMixin):\n    def __init__(self, user_id, user_info,\n                 profile_picture_id=\"default.png\",\n                 authenticated=True,\n                 active=True,\n                 admin=False):\n        self.user_id = user_id\n        self.profile_picture_id = profile_picture_id\n        self.password = user_info[\"password\"]\n        self.first_name = user_info[\"first_name\"]",
+        "detail": "part12-containers-applications.my-app.src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.user_model",
+        "description": "part12-containers-applications.my-app.src.models.user_model",
+        "peekOfCode": "class UserManager():\n    def __init__(self, username):\n        self.username = username\n    def create_user(self, registration_info):\n        sql = \"\"\"INSERT INTO users\n        (username, email, password, first_name,  last_name, street_address,\n        phone_number, country, city, province, postal_code, birthday,  profile_picture_id)\n        VALUES\n        (:username, :email, :password, :first_name, :last_name,  :street_address, :phone_number,\n        :country, :city, :province, :postal_code, :birthday, :profile_picture_id)\"\"\"",
+        "detail": "part12-containers-applications.my-app.src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileManager",
+        "kind": 6,
+        "importPath": "part12-containers-applications.my-app.src.models.user_model",
+        "description": "part12-containers-applications.my-app.src.models.user_model",
+        "peekOfCode": "class ProfileManager():\n    def __init__(self):\n        pass\n    def fetch_profile_picture(self, username):\n        sql = \"\"\"SELECT profile_picture_id\n            FROM users\n            WHERE username=:username;\"\"\"\n        profile_picture_id = user_db.session.execute(\n            sql, {\"username\": username.lower()}).fetchone()[0]\n        user_db.session.commit()",
+        "detail": "part12-containers-applications.my-app.src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "check_username",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.user_model",
+        "description": "part12-containers-applications.my-app.src.models.user_model",
+        "peekOfCode": "def check_username(username):\n    sql = \"\"\"\n    SELECT EXISTS\n    (SELECT username\n    FROM users\n    WHERE username=:username);\"\"\"\n    user_db_username = user_db.session.execute(\n        sql, {\"username\": username.lower()}).fetchone()[0]\n    user_db.session.commit()\n    if user_db_username:",
+        "detail": "part12-containers-applications.my-app.src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "check_email",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.models.user_model",
+        "description": "part12-containers-applications.my-app.src.models.user_model",
+        "peekOfCode": "def check_email(email):\n    sql = \"\"\"SELECT EXISTS\n    (SELECT email\n    FROM users\n    WHERE email=:email);\"\"\"\n    user_db_email = user_db.session.execute(\n        sql, {\"email\": email.lower()}).fetchone()[0]\n    user_db.session.commit()\n    if user_db_email:\n        return True",
+        "detail": "part12-containers-applications.my-app.src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "user_db",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.models.user_model",
+        "description": "part12-containers-applications.my-app.src.models.user_model",
+        "peekOfCode": "user_db = SQLAlchemy(app)\nclass User(UserMixin):\n    def __init__(self, user_id, user_info,\n                 profile_picture_id=\"default.png\",\n                 authenticated=True,\n                 active=True,\n                 admin=False):\n        self.user_id = user_id\n        self.profile_picture_id = profile_picture_id\n        self.password = user_info[\"password\"]",
+        "detail": "part12-containers-applications.my-app.src.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "create_admin",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def create_admin(username, password):\n    password_hash = generate_password_hash(password)\n    user = UserManager(username=username)\n    registration_info = {\n        \"username\": None,\n        \"password\": password_hash,\n        \"first_name\": None,\n        \"email\": str(uuid4())+\"@admin.admin\",\n        \"last_name\": None,\n        \"street_address\": None,",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "allowed_file",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_PROFILE_EXTENSIONS\nfilter_manager = FilterManager()\nviews = Blueprint(\"views\", __name__)\n@login_manager.user_loader\ndef user_loader(user_id):\n    return User.get(current_user, user_id=user_id)\n@views.route(\"/login\", methods=[\"GET\", \"POST\"])\ndef login():\n    if current_user.is_authenticated:",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_loader",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def user_loader(user_id):\n    return User.get(current_user, user_id=user_id)\n@views.route(\"/login\", methods=[\"GET\", \"POST\"])\ndef login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"views.home\"))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = UserManager(username=form.username.data).fetch_user()\n        login_user(user, remember=True)",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"views.home\"))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = UserManager(username=form.username.data).fetch_user()\n        login_user(user, remember=True)\n        user.create_session(user)\n        if not current_user.is_active:\n            flash(\"You can't access this page since you have been banned.\")",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def logout():\n    current_user.delete_session()\n    logout_user()\n    flash(\"You have logged out.\", category=\"success\")\n    return redirect(url_for(\"views.login\"))\n@views.route(\"/signup\", methods=[\"GET\", \"POST\"])\n@views.route(\"/register\", methods=[\"GET\", \"POST\"])\ndef register():\n    form = RegistrationForm()\n    if form.validate_on_submit():",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        password_hash = generate_password_hash(form.password.data)\n        user = UserManager(username=form.username.data)\n        registration_info = {\n            \"username\": form.username.data,\n            \"password\": password_hash,\n            \"first_name\": form.first_name.data,\n            \"email\": form.email.data,",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "post_injection",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def post_injection():\n    return dict(\n        message_form=MessageForm(),\n        profile_form=ProfileForm(),\n        password_change_form=PasswordChangeForm(),\n        report_form=CommentReportForm(),\n        message_manager=MessageManager,\n        profile_manager=ProfileManager(),\n        user_manager=UserManager,\n        filter_manager=FilterManager(),",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def home():\n    if current_user.is_anonymous:\n        return render_template(\"index.html\")\n    return render_template(\"index.html\", name=current_user.first_name)\n@views.route(\"/marketplace\", methods=[\"GET\"])\n@views.route(\"/market\", methods=[\"GET\"])\n@login_required\ndef marketplace():\n    products = filter_manager.fetch_products()\n    return render_template(\"marketplace.html\", products=products)",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "marketplace",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def marketplace():\n    products = filter_manager.fetch_products()\n    return render_template(\"marketplace.html\", products=products)\n@views.route(\"/set_condition/<condition>\")\n@login_required\ndef set_condition(condition):\n    filter_manager.set_condition(condition)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/set_category/<category>\")\n@login_required",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "set_condition",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def set_condition(condition):\n    filter_manager.set_condition(condition)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/set_category/<category>\")\n@login_required\ndef set_category(category):\n    filter_manager.set_category(category)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/set_sort/<sort>\")\n@login_required",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "set_category",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def set_category(category):\n    filter_manager.set_category(category)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/set_sort/<sort>\")\n@login_required\ndef set_sort(sort):\n    filter_manager.set_sort(sort)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/set_search\")\n@login_required",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "set_sort",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def set_sort(sort):\n    filter_manager.set_sort(sort)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/set_search\")\n@login_required\ndef set_search():\n    search = request.args[\"search\"]\n    filter_manager.set_search(search)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/marketplace\", methods=[\"POST\"])",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "set_search",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def set_search():\n    search = request.args[\"search\"]\n    filter_manager.set_search(search)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/marketplace\", methods=[\"POST\"])\n@views.route(\"/market\", methods=[\"POST\"])\n@login_required\ndef product_add():\n    if request.method == \"POST\":\n        data = request.files.getlist(\"product_pictures\")",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_add",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def product_add():\n    if request.method == \"POST\":\n        data = request.files.getlist(\"product_pictures\")\n        product_info = {\"title\": request.form[\"title\"],\n                        \"details\": request.form[\"details\"],\n                        \"price\": request.form[\"price\"],\n                        \"category\": request.form[\"category\"],\n                        \"condition\": request.form[\"condition\"]}\n        product_id = str(uuid4())\n        new_product = ProductManager(product_id=product_id,",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "product",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def product(product_id):\n    comments = CommentManager(product_id=product_id).fetch_comments()\n    return render_template(\"product.html\",\n                           product_id=product_id,\n                           comments=comments)\n@views.route(\"/product_delete/<product_id>\", methods=[\"GET\"])\n@login_required\ndef product_delete(product_id):\n    imgs = fetch_product_imgs(product_id)\n    if imgs is not None:",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_delete",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def product_delete(product_id):\n    imgs = fetch_product_imgs(product_id)\n    if imgs is not None:\n        for img in imgs:\n            if path.exists(app.root_path+\"/static/images/\"+img[0]):\n                remove(path.join(app.root_path+\"/static/images/\"+img[0]))\n    delete_product(product_id)\n    return redirect(url_for(\"views.marketplace\"))\n@views.route(\"/product/<product_id>/<comment_id>\", methods=[\"GET\"])\n@login_required",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "comment_delete",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def comment_delete(product_id, comment_id):\n    CommentManager(comment_id=comment_id).delete_comment()\n    comments = CommentManager(product_id=product_id).fetch_comments()\n    return render_template(\"product.html\",\n                           product_id=product_id,\n                           comments=comments\n                           )\n@views.route(\"/product/<product_id>/comment\", methods=[\"POST\"])\n@login_required\ndef comment(product_id):",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "comment",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def comment(product_id):\n    if request.method == \"POST\":\n        new_comment = request.form[\"comment\"]\n        mgr = CommentManager(\n            comment=new_comment,\n            product_id=product_id,\n            username=current_user.username\n        )\n        mgr.insert_comments()\n        comments = CommentManager(product_id=product_id).fetch_comments()",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "product_edit",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def product_edit(product_id):\n    if request.method == \"POST\":\n        product_info = {\"title\": request.form[\"title\"],\n                        \"details\": request.form[\"details\"],\n                        \"price\": request.form[\"price\"],\n                        \"category\": request.form[\"category\"],\n                        \"condition\": request.form[\"condition\"]}\n        product_mgr = ProductManager(\n            username=current_user.username,\n            product_id=product_id)",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "buy_product",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def buy_product(product_id):\n    issold = fetch_issold(product_id)\n    if not issold:\n        update_issold(is_sold=True, sold_to=current_user.username,\n                      product_id=product_id)\n        flash(\"You have bought this product succesfully.\")\n    else:\n        flash(\"This product has already been sold.\")\n    return redirect(url_for(\"views.product\", product_id=product_id))\n@views.route(\"/return_product/<product_id>\")",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "return_product",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def return_product(product_id):\n    update_issold(is_sold=False, sold_to=None, product_id=product_id)\n    flash(\"Product has been returned succesfully.\")\n    return redirect(url_for(\"views.profile\", username=current_user.username))\n@views.route(\"/profile/<username>\", methods=[\"GET\"])\n@login_required\ndef profile(username):\n    if check_username(username):\n        return render_template(\"profile.html\", username=username)\n    return render_template(\"404.html\")",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def profile(username):\n    if check_username(username):\n        return render_template(\"profile.html\", username=username)\n    return render_template(\"404.html\")\n@views.route(\"/profile_edit/<username>\", methods=[\"POST\", \"GET\"])\n@login_required\ndef profile_edit(username):\n    if username == current_user.username:\n        mgr = UserManager(username=username)\n        if \"current_password\" not in request.form:",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "profile_edit",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def profile_edit(username):\n    if username == current_user.username:\n        mgr = UserManager(username=username)\n        if \"current_password\" not in request.form:\n            username = current_user.username\n            form = ProfileForm()\n            first_name = form.first_name.data\n            last_name = form.last_name.data\n            email = form.email.data\n            phone_number = form.phone_number.data",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_profile",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def delete_profile():\n    products = fetch_user_products(current_user.username)\n    for item in products:\n        imgs = fetch_product_imgs(item.id)\n        if imgs is not None:\n            for img in imgs:\n                if path.exists(app.root_path+\"/static/images/\"+img[0]):\n                    remove(path.join(app.root_path+\"/static/images/\"+img[0]))\n    ProfileManager().delete_profile(current_user.username)\n    current_user.delete_session()",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def about():\n    return render_template(\"about.html\")\n@login_required\n@views.route(\"/send_message\", methods=[\"POST\", \"GET\"])\ndef send_message():\n    message_data = MessageForm()\n    if message_data.validate_on_submit:\n        if not check_username(message_data.receiver.data):\n            flash(\"This user does not exist.\")\n            return redirect(url_for(\"views.home\"))",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "send_message",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def send_message():\n    message_data = MessageForm()\n    if message_data.validate_on_submit:\n        if not check_username(message_data.receiver.data):\n            flash(\"This user does not exist.\")\n            return redirect(url_for(\"views.home\"))\n        if not message_data.send_message(\n                sender=message_data.sender.data,\n                message=message_data.message.data,\n                receiver=message_data.receiver.data):",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "report",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def report(product_id):\n    message_data = CommentReportForm()\n    if message_data.validate_on_submit:\n        sender = message_data.sender.data\n        reported = message_data.reported.data\n        new_message = message_data.message.data\n        reported_comment = message_data.comment.data\n        comment_id = message_data.comment_id.data\n        product_id = message_data.product_id.data\n        json_packet = {\"product_id\": product_id,",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def messages(username):\n    if username == current_user.username:\n        data = MessageManager(receiver=username).fetch_senders()\n        if not data:\n            data = MessageManager(sender=username).fetch_receivers()\n        return render_template(\"messages.html\", username=username, data=data)\n    return redirect(url_for(\"views.profile\", username=username))\n@login_required\n@views.route(\"/like/<username>\", methods=[\"POST\", \"GET\"])\ndef like(username):",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "like",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def like(username):\n    profile_mgr = ProfileManager()\n    exists = profile_mgr.has_liked_profile(current_user.username, username)\n    islike = profile_mgr.fetch_profile_islike(current_user.username, username)\n    if exists and not islike:\n        profile_mgr.update_profile_like(\n            current_user.username,\n            username,\n            True\n        )",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "dislike",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def dislike(username):\n    profile_mgr = ProfileManager()\n    profile_mgr.update_profile_like(\n        current_user.username,\n        username,\n        islike=False\n    )\n    return redirect(url_for(\"views.profile\", username=username))\n@login_required\n@views.route(\"/profile/<username>/messages/delete_all_messages/<sender>\", methods=[\"GET\"])",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_all_messages",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def delete_all_messages(username, sender):\n    if current_user.username == username:\n        MessageManager(\n            sender=sender, receiver=current_user.username).delete_messages()\n        MessageManager(sender=current_user.username,\n                       receiver=sender).delete_messages()\n    return redirect(url_for(\"views.messages\", username=current_user.username))\n@login_required\n@views.route(\"/profile/<username>/messages/delete_message/<message_id>\", methods=[\"GET\"])\ndef delete_message(username, message_id):",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "delete_message",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def delete_message(username, message_id):\n    if current_user.username == username:\n        MessageManager(message_id=message_id).delete_message()\n    return redirect(url_for(\"views.messages\", username=current_user.username))\n@login_required\n@views.route(\"hide_report/<message_id>\")\ndef hide_report(message_id):\n    if current_user.is_admin:\n        MessageManager(message_id=message_id).update_tag(\"solved\")\n    return redirect(url_for(\"views.admin\"))",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "hide_report",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def hide_report(message_id):\n    if current_user.is_admin:\n        MessageManager(message_id=message_id).update_tag(\"solved\")\n    return redirect(url_for(\"views.admin\"))\n@views.route(\"/uploader\", methods=[\"POST\"])\n@login_required\ndef picture_uploader():\n    profile_mgr = ProfileManager()\n    if request.method == \"POST\":\n        if \"profile_picture\" in request.files:",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "picture_uploader",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def picture_uploader():\n    profile_mgr = ProfileManager()\n    if request.method == \"POST\":\n        if \"profile_picture\" in request.files:\n            profile_picture = profile_mgr.fetch_profile_picture(\n                current_user.username)\n            file = request.files.get(\"profile_picture\")\n            if file.filename == '':\n                flash('No selected file')\n                return redirect(request.url)",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def admin():\n    if current_user.is_admin:\n        fetched_messages = MessageManager().fetch_report_messages()\n        datas = []\n        for message in fetched_messages:\n            data = {}\n            data[\"id\"] = message[0]\n            data[\"sender\"] = message[1]\n            try:\n                data[\"message\"] = json.loads(message[3])",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "ban",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def ban(username):\n    UserManager(username=username).update_activity(False)\n    return redirect(url_for(\"views.admin\"))\n@login_manager.unauthorized_handler\ndef unauthorized():\n    flash(\"Please login to see this page.\")\n    return redirect(url_for('views.login'))",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "unauthorized",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "def unauthorized():\n    flash(\"Please login to see this page.\")\n    return redirect(url_for('views.login'))",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "db = SQLAlchemy(app)\nlogin_manager.init_app(app)\ncsrf = CSRFProtect(app)\napp.wsgi_app = ProxyFix(app.wsgi_app)\n@app.cli.command(\"create-admin\")\n@click.argument(\"username\")\n@click.argument(\"password\")\ndef create_admin(username, password):\n    password_hash = generate_password_hash(password)\n    user = UserManager(username=username)",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "csrf",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "csrf = CSRFProtect(app)\napp.wsgi_app = ProxyFix(app.wsgi_app)\n@app.cli.command(\"create-admin\")\n@click.argument(\"username\")\n@click.argument(\"password\")\ndef create_admin(username, password):\n    password_hash = generate_password_hash(password)\n    user = UserManager(username=username)\n    registration_info = {\n        \"username\": None,",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "app.wsgi_app",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "app.wsgi_app = ProxyFix(app.wsgi_app)\n@app.cli.command(\"create-admin\")\n@click.argument(\"username\")\n@click.argument(\"password\")\ndef create_admin(username, password):\n    password_hash = generate_password_hash(password)\n    user = UserManager(username=username)\n    registration_info = {\n        \"username\": None,\n        \"password\": password_hash,",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_PROFILE_EXTENSIONS",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "ALLOWED_PROFILE_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])\ndef allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_PROFILE_EXTENSIONS\nfilter_manager = FilterManager()\nviews = Blueprint(\"views\", __name__)\n@login_manager.user_loader\ndef user_loader(user_id):\n    return User.get(current_user, user_id=user_id)\n@views.route(\"/login\", methods=[\"GET\", \"POST\"])\ndef login():",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "filter_manager",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "filter_manager = FilterManager()\nviews = Blueprint(\"views\", __name__)\n@login_manager.user_loader\ndef user_loader(user_id):\n    return User.get(current_user, user_id=user_id)\n@views.route(\"/login\", methods=[\"GET\", \"POST\"])\ndef login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"views.home\"))\n    form = LoginForm()",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.src.views",
+        "description": "part12-containers-applications.my-app.src.views",
+        "peekOfCode": "views = Blueprint(\"views\", __name__)\n@login_manager.user_loader\ndef user_loader(user_id):\n    return User.get(current_user, user_id=user_id)\n@views.route(\"/login\", methods=[\"GET\", \"POST\"])\ndef login():\n    if current_user.is_authenticated:\n        return redirect(url_for(\"views.home\"))\n    form = LoginForm()\n    if form.validate_on_submit():",
+        "detail": "part12-containers-applications.my-app.src.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_tables",
+        "kind": 2,
+        "importPath": "part12-containers-applications.my-app.schema",
+        "description": "part12-containers-applications.my-app.schema",
+        "peekOfCode": "def create_tables():\n    cur.execute(\"\"\"CREATE TABLE IF NOT EXISTS users(\n                username TEXT Unique NOT NULL,\n                email TEXT Unique,\n                password TEXT NOT NULL,\n                first_name TEXT,\n                last_name TEXT,\n                street_address TEXT,\n                phone_number TEXT,\n                country TEXT,",
+        "detail": "part12-containers-applications.my-app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "conn",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.schema",
+        "description": "part12-containers-applications.my-app.schema",
+        "peekOfCode": "conn = psycopg2.connect(\n    host=os.getenv(\"DB_HOST\"),\n    database=os.getenv(\"DB_NAME\"),\n    user=os.getenv(\"DB_USER\"),\n    password=os.getenv(\"DB_PASSWORD\")\n)\ncur = conn.cursor()\ncur.execute('''DROP TABLE IF EXISTS sessions''')\ncur.execute('''DROP TABLE IF EXISTS comments''')\ncur.execute('DROP TABLE IF EXISTS product_images')",
+        "detail": "part12-containers-applications.my-app.schema",
+        "documentation": {}
+    },
+    {
+        "label": "cur",
+        "kind": 5,
+        "importPath": "part12-containers-applications.my-app.schema",
+        "description": "part12-containers-applications.my-app.schema",
+        "peekOfCode": "cur = conn.cursor()\ncur.execute('''DROP TABLE IF EXISTS sessions''')\ncur.execute('''DROP TABLE IF EXISTS comments''')\ncur.execute('DROP TABLE IF EXISTS product_images')\ncur.execute('''DROP TABLE IF EXISTS messages''')\ncur.execute('''DROP TABLE IF EXISTS likes''')\ncur.execute('''DROP TABLE IF EXISTS products''')\ncur.execute('''DROP TABLE IF EXISTS users''')\ndef create_tables():\n    cur.execute(\"\"\"CREATE TABLE IF NOT EXISTS users(",
+        "detail": "part12-containers-applications.my-app.schema",
+        "documentation": {}
+    }
+]
