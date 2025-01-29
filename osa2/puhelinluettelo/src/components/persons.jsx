@@ -25,7 +25,7 @@ export const Persons = ({persons, onDelete}) => {
 
   return  persons.map(
     (person) => <Number key={person.id} name={person.name} number={person.number} deletePerson={() => onDelete(person.id)}/>
-     )
+    )
 }
 
 export const PersonForm = ({onSubmit, newName, newNumber, handleNameChange, handleNumberChange}) => {
