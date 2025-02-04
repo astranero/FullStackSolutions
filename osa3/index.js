@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 app.use(express.json());
 
-const port = process.env.PORT || 3001;
+const port = process.env.BACKEND_PORT || 3001;
 var morgan = require('morgan')
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :note'))
 
