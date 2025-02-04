@@ -6,7 +6,7 @@
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "node index.js",
+    "deploy": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "build:ui": "rm -rf dist && cd ../osa2/puhelinluettelo/ && pwd && npm install --force && npm run build && cp -r dist ../osa3",
