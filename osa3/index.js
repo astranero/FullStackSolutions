@@ -1,10 +1,10 @@
-console.log('Hello world!')
-
 const express = require("express")
 const cors = require("cors")
 const app = express()
+
 app.use(cors())
 app.use(express.json());
+app.use(express.static('dist'))
 
 const port = process.env.BACKEND_PORT || 3001;
 var morgan = require('morgan')
@@ -18,7 +18,6 @@ morgan.token('note', (request, response) => {
     }
     return '';
 })
-
 
 
 let notes = [
