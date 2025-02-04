@@ -1,5 +1,5 @@
 import axios from "axios"
-const INITIAL_URL = "http://localhost:3001/persons"
+const INITIAL_URL = "http://localhost:3001/api/persons"
 
 const getAll = () => {
     console.log("effect")

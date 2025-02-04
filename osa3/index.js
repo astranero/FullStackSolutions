@@ -1,7 +1,9 @@
 console.log('Hello world!')
 
 const express = require("express")
+const cors = require("cors")
 const app = express()
+app.use(cors())
 app.use(express.json());
 
 var morgan = require('morgan')
@@ -40,6 +42,7 @@ let notes = [
         number: "39-23-6423122"
     }
 ]
+
 
 app.get(`/`, (request, response) => {
     response.send("<h1>Hello World!</h1>")
@@ -89,6 +92,7 @@ app.post(`/api/persons/`, (request, response) => {
         return response.status(404).json({error: "Name and number are required."});
     }
 
+    console.log(name, number)
     const id = Math.floor(Math.random() * (64000 -1) + 1);
     startLen = notes.length;
 
@@ -106,6 +110,34 @@ app.post(`/api/persons/`, (request, response) => {
     notes.push(data)
     return response.status(201).json(data);
 })
+
+
+app.put(`/api/persons/:id`, (request, response) => {
+    const { name, number } = request.body;
+
+    if (!name || !number) {
+        return response.status(404).json({error: "Name and number are required."});
+    }
+
+    console.log(name, number)
+    const id = Math.floor(Math.random() * (64000 -1) + 1);
+    startLen = notes.length;
+
+    const data = { 
+        "id": id,
+        "name": name, 
+        "number": number
+    }
+
+    const note = notes.find((note) => note.name === name);
+    if (!note) {
+        return response.status(404).json({error: "Person not found."});
+    }
+
+    notes = notes.map((note) => note.id === data.id ? {...note, "name": name, "number": number}: note)
+    return response.status(201).json(data);
+})
+
 
 const PORT = 3001
 app.listen(PORT, () => {
