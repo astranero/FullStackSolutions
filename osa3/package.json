@@ -2,11 +2,14 @@
   "name": "notebackend",
   "version": "0.0.1",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
-    "build:ui": "rm -rf dist && cd ../osa2/puhelinluettelo/ && ls -la && npm install && npm run build && cp -r dist ../osa3",
+    "build:ui": "rm -rf dist && cd ../osa2/puhelinluettelo/ && pwd && npm install --force && npm run build && cp -r dist ../osa3",
     "deploy:full": "npm run build:ui && npm run deploy"
   },
   "author": "Kozheen Taher Esa",
