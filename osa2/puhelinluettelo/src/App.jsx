@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import personService, { create } from './services/persons.jsx'
+import personService from './services/persons.jsx'
 import { Header, Value, Persons, PersonForm } from './components/persons';
 
 const Error = ({ message }) => {
