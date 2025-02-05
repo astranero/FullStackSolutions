@@ -98,6 +98,7 @@ const App = () => {
     } else {
       personService.create(newObj)
       .then(createdPerson => {
+          console.log(`createdPerson`, createdPerson)
           setPersons([...persons, createdPerson]);
           setFilteredPersons([...filteredPersons, createdPerson]);
           setMessage(`Created ${newName}`);
@@ -114,6 +115,7 @@ const App = () => {
         }, 5000)
       })
     }
+
   }
 
   const handleNameChange = (event) => {

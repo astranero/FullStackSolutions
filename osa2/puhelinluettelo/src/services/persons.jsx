@@ -19,12 +19,14 @@ export const update = (newObj) => {
         return response.data
     })}
 
+
 export const create = (newObj) => {
-    console.log("effect")
     return axios.post(`${INITIAL_URL}`, newObj).then( response => {
         console.log("promise fulfilled")
+        console.log("Response data:", response.data)
         return response.data
     })}
+
 
 export const deletePerson = (id) =>  {
     return axios.delete(`${INITIAL_URL}/${id}`).then( response => {
@@ -33,9 +35,10 @@ export const deletePerson = (id) =>  {
     }).catch("Failed deletion")
 }
 
+
 export default { 
     getAll: getAll, 
     create: create, 
     update: update,
     deletePerson: deletePerson,
-    }
+}
