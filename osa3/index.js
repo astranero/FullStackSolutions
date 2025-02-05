@@ -6,7 +6,7 @@ const app = express()
 
 app.use(cors())
 app.use(express.json());
-app.use(express.static('dist'))
+app.use(express.static(path.resolve(__dirname, 'dist')))
 
 const port = process.env.BACKEND_PORT || 3001;
 var morgan = require('morgan')
