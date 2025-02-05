@@ -1,5 +1,7 @@
 const express = require("express")
 const cors = require("cors")
+const path = require("path")
+
 const app = express()
 
 app.use(cors())
@@ -45,7 +47,7 @@ let notes = [
 
 
 app.get(`/`, (request, response) => {
-    response.send("<h1>Hello World!</h1>")
+    response.sendFile(path.resolve(__dirname, 'dist', 'index.html'))
 })
 
 app.get("/info", (request, response) => {
