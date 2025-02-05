@@ -49,8 +49,8 @@ const App = () => {
 
   useEffect(() => {
     personService.getAll()
-    .then(response => {
-      const currentPersons = response.data;
+    .then(data => {
+      const currentPersons = data;
       setPersons(currentPersons);
       setFilteredPersons(currentPersons.filter(p => p.name.toLowerCase().includes(filter || "")));
     })
