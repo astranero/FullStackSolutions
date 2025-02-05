@@ -1,6 +1,6 @@
 import axios from "axios"
 const port = process.env.BACKEND_PORT || 3001
-const INITIAL_URL = `http://localhost:${port}/api/persons`
+const INITIAL_URL = `/api/persons`
 
 const getAll = () => {
     console.log("effect")
