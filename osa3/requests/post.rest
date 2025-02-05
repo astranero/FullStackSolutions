@@ -1,7 +1,7 @@
-POST http://localhost:3001/api/persons
+POST https://fullstacksolutions.onrender.com/api/persons
 Content-Type: application/json
 
 {
-    "name": "sassa",
-    "number": "00"
+    "name": "Dan Abramov",
+    "number": "12-43-234345"
 }

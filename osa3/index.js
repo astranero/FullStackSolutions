@@ -45,11 +45,6 @@ let notes = [
     }
 ]
 
-
-app.get(`*`, (request, response) => {
-    response.sendFile(path.resolve(__dirname, 'dist', 'index.html'))
-})
-
 app.get("/info", (request, response) => {
     const time = new Date().toString();
     response.send(`
@@ -139,6 +134,12 @@ app.put(`/api/persons/:id`, (request, response) => {
     notes = notes.map((note) => note.id === data.id ? {...note, "name": name, "number": number}: note)
     return response.status(201).json(data);
 })
+
+
+app.get(`*`, (request, response) => {
+    response.sendFile(path.resolve(__dirname, 'dist', 'index.html'))
+})
+
 
 PORT = port
 app.listen(PORT, () => {
