@@ -3,8 +3,12 @@ const port = process.env.BACKEND_PORT || 3001
 const INITIAL_URL = `/api/persons`
 
 const getAll = () => {
-    console.log("effect")
-    return axios.get(`${INITIAL_URL}`).then(response => response.data)
+    return axios.get(`${INITIAL_URL}`)
+    .then(response => response.data)
+    .catch( error => {
+        console.error("Error fetching data:", error)
+        throw error;
+    });
 }
 
 
