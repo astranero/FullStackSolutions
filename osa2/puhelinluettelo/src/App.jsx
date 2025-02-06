@@ -3,7 +3,7 @@ import personService from './services/persons.jsx'
 import { Header, Value, Persons, PersonForm } from './components/persons';
 
 const Error = ({ message }) => {
-  if (message === null) {
+  if (!message) {
     return null
   }
 
@@ -75,10 +75,13 @@ const App = () => {
       const person = currentPersons.filter(p => p.name === newName)[0]
       if (window.confirm(`${newName} is already added to phonebook. Do you want to update the number?`)){
         person.number = newNumber
-        personService.update(person).then(
-          UpdatedPerson => {
-            setPersons(persons.map(p => (p.id === UpdatedPerson.id ? UpdatedPerson : p)));
-            setFilteredPersons(filteredPersons.map(p => (p.id === UpdatedPerson.id ? UpdatedPerson: p )));
+        personService.update(person)
+        .then(() => {
+          return personService.getAll();
+        })
+        .then(updatedPersons => {
+            setPersons(updatedPersons);
+            setFilteredPersons(updatedPersons);
             setMessage(`Updated ${newName}`);
             setTimeout(() => {
               setMessage(null)
@@ -86,10 +89,15 @@ const App = () => {
             setNewName("");
             setNewNumber("");
           }
-        ).catch(e => {
-          setErrorMessage(`Error: ${newName} was already removed from the server`);
-          setPersons(persons.filter(p => p.id !== person.id));
-          setFilteredPersons(filteredPersons.filter(p => p.id !== person.id));
+        ).catch(error => {
+          console.log("Error:", error.response?.data?.error)
+          if (error.response.data.error){
+            setErrorMessage(`Error ${error.response.data.error}`)
+          } else if (error.message) {
+            setErrorMessage(`Error: ${error.message} `)
+          } else {
+            setErrorMessage("An unknown error occurred");
+          }
           setTimeout(() =>  {
             setErrorMessage(null)
           }, 5000)
@@ -98,7 +106,6 @@ const App = () => {
     } else {
       personService.create(newObj)
       .then(createdPerson => {
-          console.log(`createdPerson`, createdPerson)
           setPersons([...persons, createdPerson]);
           setFilteredPersons([...filteredPersons, createdPerson]);
           setMessage(`Created ${newName}`);
@@ -108,8 +115,15 @@ const App = () => {
           setNewName("");
           setNewNumber("");
         }
-      ).catch(e => {
-        setErrorMessage(`Error: ${e.message} `)
+      ).catch(error => {
+        console.log("Error:", error.response?.data?.error)
+        if (error.response.data.error){
+          setErrorMessage(`Error ${error.response.data.error}`)
+        } else if (error.message) {
+          setErrorMessage(`Error: ${error.message} `)
+        } else {
+          setErrorMessage("An unknown error occurred");
+        }
         setTimeout(() =>  {
           setErrorMessage(null)
         }, 5000)
@@ -147,8 +161,9 @@ const App = () => {
         setMessage(null)
       }, 5000);
       setNewName("");
-    }).catch(e => {
-      setErrorMessage(`Error: ${e.message} `)
+    }).catch(error => {
+      console.log("Error:", error.response?.data?.error)
+      setErrorMessage(`Error: ${error.message} `)
       setTimeout(() =>  {
         setErrorMessage(null)
       }, 5000)

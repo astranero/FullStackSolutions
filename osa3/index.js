@@ -24,7 +24,7 @@ morgan.token('note', (request, response) => {
   return ''
 })
 
-app.get('/info', (request, response) => {
+app.get('/info', (request, response, next) => {
   const time = new Date().toString()
   Person.readPersons()
     .then((persons) => {
@@ -40,7 +40,7 @@ app.get('/info', (request, response) => {
     })
 })
 
-app.get('/api/persons', (request, response) => {
+app.get('/api/persons', (request, response, next) => {
   Person.readPersons()
     .then((result) => {
       console.log('Result:', result)
@@ -52,7 +52,7 @@ app.get('/api/persons', (request, response) => {
     })
 })
 
-app.get('/api/persons/:id', (request, response) => {
+app.get('/api/persons/:id', (request, response, next) => {
   const id = request.params.id
   const person = Person.getById(id)
     .then((person) => {
@@ -68,7 +68,7 @@ app.get('/api/persons/:id', (request, response) => {
     })
 })
 
-app.delete('/api/persons/:id', (request, response) => {
+app.delete('/api/persons/:id', (request, response, next) => {
   const id = request.params.id
   Person.deletePerson(id)
     .then((result) => {
@@ -81,7 +81,7 @@ app.delete('/api/persons/:id', (request, response) => {
     })
 })
 
-app.post('/api/persons/', (request, response) => {
+app.post('/api/persons/', (request, response, next) => {
   const { name, number } = request.body
 
   if (!name || !number) {
@@ -106,7 +106,7 @@ app.post('/api/persons/', (request, response) => {
     })
 })
 
-app.put('/api/persons/:id', (request, response) => {
+app.put('/api/persons/:id', (request, response, next) => {
   const { name, number } = request.body
   const id = request.params.id
 
@@ -133,23 +133,24 @@ app.put('/api/persons/:id', (request, response) => {
     })
 })
 
-app.get('*', (request, response) => {
+app.get('*', (request, response, next) => {
   response.sendFile(path.resolve(__dirname, 'dist', 'index.html'))
 })
 
 const errorHandler = (error, request, response, next) => {
   console.error(error.message)
 
-  if (error.name == 'CastError') {
+  if (error.name === 'CastError') {
     return response.status(400).send({ error: 'malformatted id' })
   }
 
-  if (error.name == 'ValidationError') {
+  if (error.name === 'ValidationError') {
     console.error('Validation Error:', error)
     return response
-      .status(400)
-      .send({ error: 'Validation Error: ${error.message}' })
+      .status(404)
+      .json({ error: error.message })
   }
+
   next(error)
 }
 
