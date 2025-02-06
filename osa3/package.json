@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "build:ui": "rm -rf dist && cd ../osa2/puhelinluettelo/ && pwd && npm install --force && npm run build && cp -r dist ../../osa3 && cd ../../osa3 && ls -la",
-    "deploy:full": "npm run build:ui && npm run deploy"
+    "deploy:full": "npm run build:ui && npm run deploy",
+    "lint": "eslint ."
   },
   "author": "Kozheen Taher Esa",
   "license": "MIT",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
+    "@stylistic/eslint-plugin-js": "^3.0.1",
     "eslint": "^9.19.0",
     "globals": "^15.14.0"
   }
