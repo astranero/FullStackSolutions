@@ -83,7 +83,8 @@ function (id) {
 
 personSchema.static(`updatePerson`, 
 function (personData) {
-    return Person.findByIdAndUpdate({_id: personData.id}, personData, {new: true}).then( updatedPerson => {
+    return Person.findByIdAndUpdate({_id: personData.id}, personData, {new: true})
+        .then( updatedPerson => {
             console.log(`Updated document:`, updatedPerson)
             return updatedPerson
         })
@@ -96,7 +97,8 @@ function (personData) {
 
 personSchema.static(`getById`, 
 function (id) {
-    return Person.findById(id).then( thePerson => {
+    return Person.findById(id)
+        .then( thePerson => {
             console.log(`Fetched document:`, thePerson)
             return thePerson
         })

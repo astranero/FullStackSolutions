@@ -38,7 +38,7 @@ app.get("/info", (request, response) => {
     })
     .catch(error => {
         console.error("Error fetching persons:", error)
-        response.status(500).send("Failed to retrieve data")
+        next(error)
     })
 })
 
@@ -51,7 +51,7 @@ app.get(`/api/persons`, (request, response) => {
     })
     .catch( error => {
         console.error(`Failed to read persons:`, error)
-        response.status(500).json({ error: 'Internal server error' })
+        next(error)
     })
 })
 
@@ -68,7 +68,7 @@ app.get(`/api/persons/:id`, (request, response) => {
     })
     .catch(error => {
         console.error("Error fetching person:", error)
-        response.status(500).json({ error: "Internal server error" })
+        next(error)
     })
 })
 
@@ -81,7 +81,7 @@ app.delete(`/api/persons/:id`, (request, response) => {
     })
     .catch(error => {
         console.error("Error deleting person by id.", error)
-        response.status(500).json({ error: "Internal server error" })
+        next(error)
     })
 })
 
@@ -105,7 +105,7 @@ app.post(`/api/persons/`, (request, response) => {
     })
     .catch(error => {
         console.error("Error adding person:", error)
-        response.status(500).json({ error: "Internal server error" })
+        next(error)
     })
 })
 
@@ -131,16 +131,27 @@ app.put(`/api/persons/:id`, (request, response) => {
     })
     .catch(error => {
         console.error("Error updating person:", error)
-        response.status(500).json({ error: "Internal server error" })
+        next(error)
     })
 })
-
 
 
 app.get(`*`, (request, response) => {
     response.sendFile(path.resolve(__dirname, 'dist', 'index.html'))
 })
 
+
+const errorHandler = (error, request, response, next) => {
+    console.error(error.message)
+
+    if (error.name == "CastError"){
+        return response.status(400).send({error: `malformatted id`})
+    }
+
+    next(error)
+}
+
+app.use(errorHandler)
 
 PORT = port
 app.listen(PORT, () => {
