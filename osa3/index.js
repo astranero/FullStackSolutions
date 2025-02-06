@@ -14,6 +14,7 @@ const port = process.env.BACKEND_PORT || 3001;
 var morgan = require('morgan')
 app.use(morgan(':method :url :status :res[content-length] - :response-time ms :note'))
 
+
 morgan.token('note', (request, response) => { 
     if (request.method == "POST"){
         const name = request.body.name
@@ -23,15 +24,24 @@ morgan.token('note', (request, response) => {
     return '';
 })
 
+
 app.get("/info", (request, response) => {
     const time = new Date().toString();
-    response.send(`
-            <p>Phonebook has info for Phonebook information of the people</p>
+    Person.readPersons()
+    .then(persons => {
+        response.send(`
+            <p>Phonebook has info for ${persons.length} people</p>
             <p>${time}</p>`
-    )
-    console.log(request)
-    response.end()
+        )
+        console.log(request)
+        response.end()
+    })
+    .catch(error => {
+        console.error("Error fetching persons:", error)
+        response.status(500).send("Failed to retrieve data")
+    })
 })
+
 
 app.get(`/api/persons`, (request, response) => {
     Person.readPersons()
@@ -43,7 +53,6 @@ app.get(`/api/persons`, (request, response) => {
         console.error(`Failed to read persons:`, error)
         response.status(500).json({ error: 'Internal server error' })
     })
-
 })
 
 
@@ -61,8 +70,8 @@ app.get(`/api/persons/:id`, (request, response) => {
         console.error("Error fetching person:", error)
         response.status(500).json({ error: "Internal server error" })
     })
-
 })
+
 
 app.delete(`/api/persons/:id`, (request, response) => {
     const id = request.params.id;
@@ -75,6 +84,7 @@ app.delete(`/api/persons/:id`, (request, response) => {
         response.status(500).json({ error: "Internal server error" })
     })
 })
+
 
 app.post(`/api/persons/`, (request, response) => {
     const { name, number } = request.body;
@@ -124,6 +134,7 @@ app.put(`/api/persons/:id`, (request, response) => {
         response.status(500).json({ error: "Internal server error" })
     })
 })
+
 
 
 app.get(`*`, (request, response) => {
