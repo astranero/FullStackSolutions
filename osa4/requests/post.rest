@@ -1,0 +1,9 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+    "author": "Dasn Abramov",
+    "title": "A dasrk fall",
+    "url": "http://horribles.days.com",
+    "likes": -87121
+}
