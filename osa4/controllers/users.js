@@ -9,40 +9,40 @@ usersRouter.get("/", async (request, response) => {
 
 const validateUser = async (response, username, password) => {
     if (!(username && password)){
-        return response.status(403).send('username and password required.')
+        throw new Error('Username and password required.');
     } else if (!(password.length >= 3)){
-        return response.status(403).send('Password minimum length is 3.')
+        throw new Error('Password minimum length is 3.');
     } else if (!(username.length >= 3)){
-        return response.status(403).send('Username minimum length is 3.')
+        throw new Error('Username minimum length is 3.');
     }
 
     const existsUSer = await User.findOne({ username })
     if (existsUSer){
-        return response.status(403).send("Username must be unique")
+        throw new Error('Username must be unique.');
     }
 }
 
 usersRouter.post("/", async (request, response) => {
-    const { username, name, password } = request.body
+    try {
+        const { username, name, password } = request.body
 
-    await validateUser(response, username, password)
+        await validateUser(response, username, password)
 
-    const saltRounds = 10
-    const passwordHash = await bcrypt.hash(password, saltRounds)
-
-    const user = new User({
-        username, 
-        name,
-        passwordHash
-    })
-
-    const savedUser = await user
-        .save()
-        .catch(e => {
-            response.status(403).json(e.message)
+        const saltRounds = 10
+        const passwordHash = await bcrypt.hash(password, saltRounds)
+    
+        const user = new User({
+            username, 
+            name,
+            passwordHash
         })
-
-    response.status(201).json(savedUser)
+    
+        const savedUser = await user.save()
+        response.status(201).json(savedUser)
+    } catch (error){
+        console.log(error)
+        response.status(403).json({ error: error.message })
+    }
 })
 
 

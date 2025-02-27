@@ -8,4 +8,4 @@ const PORT = process.env.PORT
 const MONGODB_URI =  `mongodb+srv://${username}:${password}@${process.env.MONGO_CLUSTER}`
 const SECRET = process.env.SECRET
 
-module.exports = { PORT, MONGODB_URI, SECRET};
+module.exports = { PORT, MONGODB_URI, SECRET };

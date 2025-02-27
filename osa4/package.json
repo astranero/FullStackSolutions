@@ -4,8 +4,9 @@
   "description": "A fullstack bloglist",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=test node --test",
-    "start": "nodemon index.js"
+    "test": "NODE_ENV=test NODE_TEST_PARALLELISM=1 node --test",
+    "start": "nodemon index.js",
+    "dev": "NODE_ENV=test nodemon index.js"
   },
   "author": "",
   "license": "ISC",

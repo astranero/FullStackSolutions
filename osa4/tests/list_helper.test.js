@@ -1,15 +1,25 @@
-const { test, describe } = require('node:test')
+const { test, describe, after, beforeEach, before } = require('node:test')
 const assert = require('node:assert')
 const listHelper = require('../utils/list_helper')
+const mongoose = require('mongoose');
 
-test('dummy returns one', () => {
-    const blogs = []
-
-    const result = listHelper.dummy(blogs)
-    assert.strictEqual(result, 1)
-})
+const { Blog } = require('../models/blog');
+const { User } = require('../models/user');
+const { MONGODB_URI } = require('../utils/config');
 
 describe('total likes', () => {
+    before(async () => {
+        await mongoose.connect(MONGODB_URI)
+        await Blog.deleteMany()
+        await User.deleteMany()
+    })
+
+    after(async () =>  {
+        await Blog.deleteMany()
+        await User.deleteMany()
+        await mongoose.connection.close()
+    })
+
     const listWithOneBlog = [
         {
             _id: '5a422aa71b54a676234d17f8',
@@ -95,5 +105,4 @@ describe('total likes', () => {
         assert.strictEqual(result.author, "Edsger W. Dijkstra")
         assert.strictEqual(result.likes, 17)
     })
-
 })

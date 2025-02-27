@@ -20,14 +20,25 @@ const extractUser = async (request, response, next) => {
         return next();
     }
 
-    const decodedToken = jwt.verify(request.token, SECRET)
-    if (!decodedToken.id){
+    let decodedToken;
+    try {
+        decodedToken = jwt.verify(request.token, SECRET)
+    } catch (error) {
         return response.status(401).json({error: 'Invalid token'})
     }
 
-    request.user = await User.findById(decodedToken.id);
-    if (!request.user) {
-        return response.status(401).json({ error: 'User not found' });
+    if (!decodedToken.id) {
+        return response.status(401).json({ error: "Invalid token" });
+    }
+
+    try {
+        request.user = await User.findById(decodedToken.id);
+        if (!request.user) {
+            return response.status(401).json({ error: "User not found" });
+        }
+    } catch (error) {
+        console.error("Database Error:", error.message);
+        return response.status(500).json({ error: "Database error while retrieving user" });
     }
 
     next();

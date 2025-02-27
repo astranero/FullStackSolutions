@@ -11,77 +11,47 @@ const api = supertest(app)
 const { Blog } = require('../models/blog');
 const { User } = require('../models/user');
 const { MONGODB_URI } = require('../utils/config');
+const listWithManyBlog = [
+    {
+        title: "React patterns",
+        author: "Michael Chan",
+        url: "https://reactpatterns.com/"
+    },
+    {
+        title: "Go To Statement Considered Harmful",
+        author: "Edsger W. Dijkstra",
+        url: "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
+    },
+    {
+        title: "Canonical string reduction",
+        author: "Edsger W. Dijkstra",
+        url: "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
+    },
+    {
+        title: "First class tests",
+        author: "Robert C. Martin",
+        url: "http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.htmll",
+    },
+    {
+        title: "TDD harms architecture",
+        author: "Robert C. Martin",
+        url: "http://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html",
+    }
+]
+
 
 describe('when there is initially no user at db', () => {
+    let token
     before(async () => {
-        await mongoose.connect(MONGODB_URI);
-        await Blog.deleteMany({});
-        await User.deleteMany({});
-    });
+        await mongoose.connect(MONGODB_URI)
+        await Blog.deleteMany()
+        await User.deleteMany()
+    })
 
-    beforeEach(async () => {
-        await Blog.deleteMany({});
-        await User.deleteMany({});
-
-        const testUser = new User({
-            username: 'test',
-            name:'Test User',
-            passwordHash: await bcrypt.hash('secret', 10)
-        })
-
-        const testUser2 = new User({
-            username: 'test2',
-            name:'Test User',
-            passwordHash: await bcrypt.hash('secret', 10)
-        })
-
-        await testUser.save();
-        await testUser2.save();
-
-        const listWithManyBlog = [
-            {
-                _id: "5a422a851b54a676234d17f7",
-                title: "React patterns",
-                author: "Michael Chan",
-                url: "https://reactpatterns.com/",
-                likes: 7,
-                __v: 0
-            },
-            {
-                _id: "5a422aa71b54a676234d17f8",
-                title: "Go To Statement Considered Harmful",
-                author: "Edsger W. Dijkstra",
-                url: "http://www.u.arizona.edu/~rubinson/copyright_violations/Go_To_Considered_Harmful.html",
-                likes: 5,
-                __v: 0
-            },
-            {
-                _id: "5a422b3a1b54a676234d17f9",
-                title: "Canonical string reduction",
-                author: "Edsger W. Dijkstra",
-                url: "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
-                likes: 12,
-                __v: 0
-            },
-            {
-                _id: "5a422b891b54a676234d17fa",
-                title: "First class tests",
-                author: "Robert C. Martin",
-                url: "http://blog.cleancoder.com/uncle-bob/2017/05/05/TestDefinitions.htmll",
-                likes: 10,
-                __v: 0
-            },
-            {
-                _id: "5a422ba71b54a676234d17fb",
-                title: "TDD harms architecture",
-                author: "Robert C. Martin",
-                url: "http://blog.cleancoder.com/uncle-bob/2017/03/03/TDD-Harms-Architecture.html",
-                likes: 0,
-                __v: 0
-            }
-        ]
-
-        await Blog.insertMany(listWithManyBlog);
+    after(async () =>  {
+        await Blog.deleteMany()
+        await User.deleteMany()
+        await mongoose.connection.close()
     })
 
     test('blogs are returned as json', async () => {
@@ -93,15 +63,65 @@ describe('when there is initially no user at db', () => {
 
 
     test('get returns correct amount of blogs', async () => {
+        await api.post('/api/testing/reset').expect(204)
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201)
+
+        const login = await api
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
+
+        const token = login.body.token
+        for (const blog of listWithManyBlog) {
+            await api
+                .post('/api/blogs')
+                .set('Authorization', `Bearer ${token}`)
+                .send(blog)
+                .expect(201)
+        }
+
         const result = await api
             .get('/api/blogs')
             .expect(200)
-            .expect('Content-Type', /application\/json/)
 
         assert.strictEqual(result.body.length, 5)
     })
 
     test('get returns correct `id` format (not _id)', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+
+        await api.post("/api/users")
+            .send(newUser)
+            .expect(201)
+
+        const loginResponse = await api
+            .post('/api/login')
+            .send({ username: 'mluukkai', password: 'salainen' })
+            .expect(200);
+
+        const token = loginResponse.body.token
+
+        for (const blog of listWithManyBlog) {
+            await api
+                .post('/api/blogs')
+                .set('Authorization', `Bearer ${token}`)
+                .set("Content-Type", "application/json")
+                .send(blog)
+                .expect(201)
+        }
+
         const result = await api
             .get('/api/blogs')
             .expect(200)
@@ -113,13 +133,20 @@ describe('when there is initially no user at db', () => {
     })
 
     test('post request to api/blogs works with a token', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201)
+
         const login = await api
             .post('/api/login')
-            .send({username: 'test', password: 'secret'})
+            .send({username: 'mluukkai', password: 'salainen'})
             .expect(200)
             .expect('Content-Type', /application\/json/)
-
-        const token = login.body.token;
 
         const initBlog = {
             title: "Type wars",
@@ -127,9 +154,11 @@ describe('when there is initially no user at db', () => {
             url: "http://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html"
         }  
 
+        const token = `Bearer ${login.body.token}`
         const result = await api
             .post('/api/blogs')
-            .set('Authorization', `Bearer ${token}`)
+            .set("Authorization", token)
+            .set("Content-Type", "application/json")
             .send(initBlog)
             .expect(201)
             .expect('Content-Type', /application\/json/)
@@ -142,6 +171,14 @@ describe('when there is initially no user at db', () => {
 
 
     test('post request fail a without token', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201)
 
         const initBlog = {
             title: "Type wars",
@@ -159,6 +196,15 @@ describe('when there is initially no user at db', () => {
 
 
     test('if likes not given set to 0', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201)
+
         const initBlog = {
             title: "Type wars",
             author: "Robert C. Martin",
@@ -166,47 +212,63 @@ describe('when there is initially no user at db', () => {
         }  
 
         const login = await api
-        .post('/api/login')
-        .send({username: 'test', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
 
-        const token = login.body.token;
+        const token = login.body.token
         const response = await api
-
-        .post('/api/blogs')
-        .send(initBlog)
-        .set('Authorization', `Bearer ${token}`)
-        .expect(201)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/blogs')
+            .send(initBlog)
+            .set('Authorization', `Bearer ${token}`)
+            .expect(201)
+            .expect('Content-Type', /application\/json/);
 
         assert.strictEqual(response.body.likes, 0)
     })
 
 
     test('if no url or title return bad request', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201)
+
         const initBlog = {
             title: "Type wars",
             author: "Robert C. Martin"
-        }  
+        }
+
         const login = await api
-        .post('/api/login')
-        .send({username: 'test', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
 
         const token = login.body.token;
         const response = await api
-        .post('/api/blogs')
-        .set('Authorization', `Bearer ${token}`)
-        .send(initBlog)
-        .expect(400)
-        .expect('Content-Type', /application\/json/);
-
+            .post('/api/blogs')
+            .set('Authorization', `Bearer ${token}`)
+            .send(initBlog)
+            .expect(400)
+            .expect('Content-Type', /application\/json/);
     })
 
-
     test('testing to add and delete blog', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201)
+
         const initBlog = {
             title: "Type wars",
             author: "Robert C. Martin",
@@ -214,10 +276,10 @@ describe('when there is initially no user at db', () => {
         }  
 
         const login = await api
-        .post('/api/login')
-        .send({username: 'test', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
 
         const token = login.body.token;
         const response = await api
@@ -241,6 +303,27 @@ describe('when there is initially no user at db', () => {
 
 
     test('add by user 1 and delete blog by user2 should fail', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201);
+
+        const user2 = {
+            username: 'mluukkai2',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+            }
+    
+        await api
+            .post('/api/users')
+            .send(user2)
+            .expect(201)
+            .expect('Content-Type', /application\/json/)
+
         const initBlog = {
             title: "Type wars",
             author: "Robert C. Martin",
@@ -248,10 +331,10 @@ describe('when there is initially no user at db', () => {
         }  
 
         const login = await api
-        .post('/api/login')
-        .send({username: 'test', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
 
         const token = login.body.token;
         const response = await api
@@ -262,10 +345,10 @@ describe('when there is initially no user at db', () => {
             .expect('Content-Type', /application\/json/);
 
         const login2 = await api
-        .post('/api/login')
-        .send({username: 'test2', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai2', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
 
         const token2 = login2.body.token;
         const deleteResponse = await api
@@ -277,6 +360,15 @@ describe('when there is initially no user at db', () => {
     })
 
     test('delete blog by without token should fail', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201);
+
         const initBlog = {
             title: "Type wars",
             author: "Robert C. Martin",
@@ -284,10 +376,10 @@ describe('when there is initially no user at db', () => {
         }  
 
         const login = await api
-        .post('/api/login')
-        .send({username: 'test', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
 
         const token = login.body.token;
         const response = await api
@@ -306,6 +398,15 @@ describe('when there is initially no user at db', () => {
 
 
     test('testing to update blog', async () => {
+        await api.post('/api/testing/reset').expect(204)
+
+        const newUser = {
+            username: 'mluukkai',
+            name: 'Matti Luukkainen',
+            password: 'salainen',
+        }
+        await api.post("/api/users").send(newUser).expect(201);
+
         const initBlog = {
             title: "Type wars",
             author: "Robert C. Martin",
@@ -313,10 +414,11 @@ describe('when there is initially no user at db', () => {
         }
 
         const login = await api
-        .post('/api/login')
-        .send({username: 'test', password: 'secret'})
-        .expect(200)
-        .expect('Content-Type', /application\/json/);
+            .post('/api/login')
+            .send({username: 'mluukkai', password: 'salainen'})
+            .expect(200)
+            .expect('Content-Type', /application\/json/);
+
         const token = login.body.token;
 
         const response = await api
@@ -343,9 +445,5 @@ describe('when there is initially no user at db', () => {
 
         const updatedBlog = await Blog.findById(updatedResponse.body.id).exec();
         assert.strictEqual(updatedBlog.title, "New Title")
-    })
-
-    after(async () =>  {
-        await mongoose.connection.close()
     })
 })
